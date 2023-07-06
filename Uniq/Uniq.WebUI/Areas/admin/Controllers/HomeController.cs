@@ -9,7 +9,7 @@ using Uniq.WebUI.Tools;
 
 namespace Uniq.WebUI.Areas.admin.Controllers
 {
-    [Area("admin"), Authorize(AuthenticationSchemes = "TasaryeriAdminAuth")]
+    [Area("admin"), Authorize(AuthenticationSchemes = "UniqAdminAuth")]
     public class HomeController : Controller
     {
         IRepository<Admin> repoAdmin;
@@ -30,7 +30,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         {
             //admin paneline giriş için cookie oluşturma
             string md5Password = GeneralTool.getMD5(model.Password);
-            Admin? admin = repoAdmin.GetBy(x => x.UserName == model.UserName && x.Password == md5Password) ?? null;
+            Admin admin = repoAdmin.GetBy(x => x.UserName == model.UserName && x.Password == md5Password) ?? null;
             if (admin != null)
             {
                 List<Claim> claims = new List<Claim>

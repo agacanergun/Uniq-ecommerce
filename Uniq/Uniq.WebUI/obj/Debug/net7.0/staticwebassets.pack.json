@@ -1,6 +1,1642 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.ttf",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.woff",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.woff"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.woff2",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\crypto-icons\\cryptocoins.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ad.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ae.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\af.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ag.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ai.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\al.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\am.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ao.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\aq.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ar.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\as.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\at.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\au.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\aw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ax.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\az.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ba.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bb.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bd.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\be.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bi.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bj.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bo.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bq.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\br.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bs.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\by.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ca.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cd.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ch.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ci.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ck.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\co.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cx.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cy.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\de.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dj.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\do.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ec.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ee.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\eg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\eh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\er.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\es.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\et.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fi.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fj.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fo.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ga.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gb.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gd.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ge.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gi.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gp.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gq.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gs.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gy.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ht.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\id.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ie.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\il.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\im.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\in.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\io.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\iq.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ir.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\is.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\it.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\je.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jo.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jp.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ke.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ki.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\km.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kp.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ky.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\la.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lb.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\li.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ls.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ly.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ma.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\md.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\me.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ml.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mo.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mp.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mq.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ms.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mx.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\my.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\na.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ne.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ng.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ni.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\no.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\np.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\om.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pa.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pe.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ph.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ps.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\py.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\qa.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\re.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ro.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\rs.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ru.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\rw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sa.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sb.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sd.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\se.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sh.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\si.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sj.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\so.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ss.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\st.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sx.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sy.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\td.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\th.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tj.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tk.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tl.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\to.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tr.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tv.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ua.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ug.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\um.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\us.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\uy.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\uz.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\va.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vc.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ve.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vg.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vi.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vn.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vu.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\wf.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ws.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ye.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\yt.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\za.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\zm.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\zw.svg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\flag-icon-css\\flags\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.eot",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.eot"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.ttf",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.woff2",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-icons2d35.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-iconsd41d.eot",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-iconsd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-iconsd41d.woff",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\icons\\tabler-icons\\fonts\\tabler-iconsd41d.woff"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-aqua.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-aqua.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-cyan.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-cyan.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-dark.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-green.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-orange.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-orange.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style-purple.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style-purple.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\bronze.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\bronze.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\gold.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\gold.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\my-card.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\my-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\piggy.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\piggy.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\profilebg.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\profilebg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\rocket.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\rocket.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\silver.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\silver.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\track-bg.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\track-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\unlimited-bg.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\unlimited-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\website-under-construction.gif",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\website-under-construction.gif"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\backgrounds\\welcome-bg2.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\backgrounds\\welcome-bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\auth-bg.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\auth-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\auth-bg2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\auth-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\img2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\img3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\big\\img8.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\big\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img10.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img11.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img5.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img6.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img8.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\blog\\blog-img9.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\blog\\blog-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\breadcrumb\\ChatBc.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\breadcrumb\\ChatBc.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\breadcrumb\\emailSv.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\breadcrumb\\emailSv.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\crypto\\c1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\crypto\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\crypto\\c2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\crypto\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\crypto\\c3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\crypto\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\logos\\favicon.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\logos\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album5.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album6.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album7.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\album8.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\album8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\s1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\s2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\s3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\s4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\top10-1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\top10-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\top10-2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\top10-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\music\\top10-3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\music\\top10-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\nft\\1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\nft\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\nft\\3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\nft\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\nft\\5.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\nft\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\nft\\mastercard.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\nft\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\nft\\nft-bg.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\nft\\nft-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\empty-shopping-bag.gif",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\empty-shopping-bag.gif"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\payment-complete.gif",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\payment-complete.gif"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s10.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s11.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s12.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s5.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s6.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s7.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s8.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\products\\s9.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\products\\s9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-10.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-3.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-4.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-5.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-6.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-7.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-8.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\profile\\user-9.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\profile\\user-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\shaps\\danger-shap.html",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\shaps\\danger-shap.html"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\shaps\\info-shap.html",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\shaps\\info-shap.html"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\shaps\\warning-shap.html",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\images\\shaps\\warning-shap.html"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.area.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.area.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.bar.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.bar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.line.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.line.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.pie.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.pie.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.radar.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.radar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apex-chart\\apex.radial.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apex-chart\\apex.radial.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\app-style-switcher.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\app-style-switcher.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\app.horizontal.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\app.horizontal.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\app.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\calendar-init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\calendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\chat.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\contact.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\invoice.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\invoice.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\jquery.PrintArea.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\jquery.PrintArea.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\apps\\notes.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\apps\\notes.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\dashboard2.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\dashboard2.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\dashboard3.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\dashboard3.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\dashboard4.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\dashboard4.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\dashboard5.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\dashboard5.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\datatable\\datatable-advanced.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\datatable\\datatable-advanced.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\datatable\\datatable-api.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\datatable\\datatable-api.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\datatable\\datatable-basic.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\datatable\\datatable-basic.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\bootstrap-switch.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\dual-listbox.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\dual-listbox.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\form-bootstrap-touchspin.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\form-bootstrap-touchspin.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\form-wizard.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\select2.init.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\select2.init.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\jplayer\\jplayer.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\jplayer\\jplayer.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\productDetail.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\productDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\widgets-charts.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\widgets-charts.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-duallistbox\\dist\\bootstrap-duallistbox.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-duallistbox\\dist\\bootstrap-duallistbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-duallistbox\\dist\\jquery.bootstrap-duallistbox.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-duallistbox\\dist\\jquery.bootstrap-duallistbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-switch\\dist\\css\\bootstrap3\\bootstrap-switch.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-switch\\dist\\css\\bootstrap3\\bootstrap-switch.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-switch\\dist\\js\\bootstrap-switch.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-switch\\dist\\js\\bootstrap-switch.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\datatables.net\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\datatables.net\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\fullcalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\fullcalendar\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jplayer\\dist\\add-on\\jplayer.playlist.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jplayer\\dist\\add-on\\jplayer.playlist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jplayer\\dist\\jplayer\\jquery.jplayer.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jplayer\\dist\\jplayer\\jquery.jplayer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jquery-steps\\build\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jquery-steps\\build\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jquery-ui\\dist\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jquery-ui\\dist\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\owl.carousel\\dist\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\prismjs\\prism.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\prismjs\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\prismjs\\themes\\prism.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\prismjs\\themes\\prism.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\quill\\dist\\quill.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\quill\\dist\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\quill\\dist\\quill.snow.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\quill\\dist\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\select2\\dist\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\select2\\dist\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\select2\\dist\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\select2\\dist\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },

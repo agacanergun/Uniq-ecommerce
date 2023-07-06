@@ -12,10 +12,10 @@ builder.Services.AddDbContext<SqlContext>(options =>
 
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme = "TasaryeriAdminAuth";
-    options.DefaultSignInScheme = "TasaryeriAdminAuth";
-    options.DefaultChallengeScheme = "TasaryeriAdminAuth";
-}).AddCookie("TasaryeriAdminAuth", opt =>
+    options.DefaultAuthenticateScheme = "UniqAdminAuth";
+    options.DefaultSignInScheme = "UniqAdminAuth";
+    options.DefaultChallengeScheme = "UniqAdminAuth";
+}).AddCookie("UniqAdminAuth", opt =>
     {
         opt.ExpireTimeSpan = TimeSpan.FromMinutes(60);
         opt.LoginPath = "/admin";
