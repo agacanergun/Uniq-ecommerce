@@ -1,0 +1,15 @@
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Debug\net7.0\Uniq.BL.deps.json
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Debug\net7.0\Uniq.BL.dll
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Debug\net7.0\Uniq.BL.pdb
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Debug\net7.0\Uniq.DAL.dll
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Debug\net7.0\Uniq.DAL.pdb
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.csproj.AssemblyReference.cache
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.AssemblyInfoInputs.cache
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.AssemblyInfo.cs
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.csproj.CopyComplete
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.dll
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\refint\Uniq.BL.dll
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\Uniq.BL.pdb
+C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Debug\net7.0\ref\Uniq.BL.dll

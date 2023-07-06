@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "5e6aQwZxJW/GUbvD9TJhezS9PrJnfp2Gcef8b5OlJhE=",
+  "Source": "Uniq.WebUI",
+  "BasePath": "_content/Uniq.WebUI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Uniq.WebUI\\wwwroot",
+      "Source": "Uniq.WebUI",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
