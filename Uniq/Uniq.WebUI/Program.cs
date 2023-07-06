@@ -8,15 +8,19 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(SqlRepository<>));
 builder.Services.AddDbContext<SqlContext>(options =>
           options.UseSqlServer(builder.Configuration.GetConnectionString("CS1")));
-//custom authentication in .net core
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
-{
-    opt.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-    opt.LoginPath = "/admin/Login";
-    opt.LogoutPath = "/admin/Logout";
-}
 
-);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = "TasaryeriAdminAuth";
+    options.DefaultSignInScheme = "TasaryeriAdminAuth";
+    options.DefaultChallengeScheme = "TasaryeriAdminAuth";
+}).AddCookie("TasaryeriAdminAuth", opt =>
+    {
+        opt.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+        opt.LoginPath = "/admin";
+        opt.LogoutPath = "/admin/logout";
+    });
 
 
 var app = builder.Build();
