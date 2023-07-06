@@ -26,7 +26,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         }
 
         [Route("/admin"), HttpPost, AllowAnonymous]
-        public async Task<IActionResult> Index(Admin model, string ReturnUrl)
+        public async Task<IActionResult> Index(string ReturnUrl, Admin model)
         {
             //admin paneline giriş için cookie oluşturma
             string md5Password = GeneralTool.getMD5(model.Password);

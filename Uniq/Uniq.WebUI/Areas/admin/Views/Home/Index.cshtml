@@ -1,4 +1,8 @@
-﻿@model Admin
+﻿@{
+    Layout = null;
+}
+
+@model Admin
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -41,7 +45,7 @@
                                 <h2 class="mb-3 fs-7 fw-bolder text-center">UNİQUE ADMİN PANEL</h2>
                                 <br />
                                 <form class="text-center" method="post" asp-area="admin" asp-controller="Home" asp-action="Index">
-                                    <input type="hidden" value="@ViewBag.ReturnUrl" />
+                                    <input type="hidden" name="ReturnUrl" value="@ViewBag.ReturnUrl" />
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Kullanıcı Adı</label>
                                         <input type="text" class="form-control" asp-for="@Model.UserName">

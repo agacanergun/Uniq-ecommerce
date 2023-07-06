@@ -63,6 +63,27 @@ namespace Uniq.DAL.Migrations
                             UserName = "uniq"
                         });
                 });
+
+            modelBuilder.Entity("Uniq.DAL.Entities.Category", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("DisplayIndex")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Category");
+                });
 #pragma warning restore 612, 618
         }
     }
