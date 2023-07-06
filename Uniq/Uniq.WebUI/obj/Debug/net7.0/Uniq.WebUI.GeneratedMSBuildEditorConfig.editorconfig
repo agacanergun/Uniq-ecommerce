@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MONSTER\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Home/Index.cshtml]

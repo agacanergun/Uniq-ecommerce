@@ -15,6 +15,7 @@ namespace Uniq.DAL.Entities
 
         [StringLength(30), Column(TypeName = "varchar(30)"), Required(), Display(Name = "Kategori Adı")]
         public string Name { get; set; }
+        [Display(Name = "Görüntülenme Sırası")]
         public int DisplayIndex { get; set; }
     }
 }
