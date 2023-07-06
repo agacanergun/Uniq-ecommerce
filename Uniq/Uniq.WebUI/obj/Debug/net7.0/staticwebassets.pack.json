@@ -1,0 +1,1557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\vendors\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\vendors\\popup\\popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\popup\\popup.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\vendors\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\vendors\\wow-animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\wow-animate.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\1.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\2.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\3.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\4.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\5.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\bank1.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\bank1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\bank2.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\bank2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\bank3.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\bank3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\discover-w.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\discover-w.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\fb.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\google.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\icons\\png\\seller.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\png\\seller.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\about-us\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-us\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\avatar\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\banner\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\banner\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\banner\\bg-footer-l.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\banner\\bg-footer-l.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\banner\\bg-footer-r.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\banner\\bg-footer-r.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\banner\\sub-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\banner\\sub-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand-welove\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand-welove\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\brand\\brand6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\brand\\brand6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\category\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\category\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\3-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\3-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\3-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\8-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\8-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\8-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\8-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\8-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\8-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\product\\png\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\product\\png\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\slide\\banner1-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\slide\\banner1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\bag\\slide\\banner1-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bag\\slide\\banner1-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\detail\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\detail\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\grid\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\blog\\list\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\list\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\demo6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\demo6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\demo-img\\menu-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-img\\menu-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\bg-footer-l.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\bg-footer-l.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\bg-footer-r.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\bg-footer-r.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\banner\\sizechart.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\banner\\sizechart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\category\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\category\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\front\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\front\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\new-arrived\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\new-arrived\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\new-arrived\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\new-arrived\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\new-arrived\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\new-arrived\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\new-arrived\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\new-arrived\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\product\\new-arrived\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\product\\new-arrived\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\slider\\banner1-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\slider\\banner1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\slider\\banner1-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\slider\\banner1-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\slider\\banner1-c1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\slider\\banner1-c1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\fashion\\slider\\banner1-c2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fashion\\slider\\banner1-c2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\favicon\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\article\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\article\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\article\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\article\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\bg-catagories.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\bg-catagories.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\sub-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\sub-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\banner\\sub-banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\banner\\sub-banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\gallery\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\gallery\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\16-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\16-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\16-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\product\\jpg\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\product\\jpg\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\special-product\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\special-product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\special-product\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\special-product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\special-product\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\special-product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\furniture\\special-product\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture\\special-product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\banner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\bg-footer-l.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\bg-footer-l.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\bg-footer-r.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\bg-footer-r.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\sub-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\sub-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\sub-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\sub-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\sub-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\sub-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\banner\\sub-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\banner\\sub-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\best-seller\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\best-seller\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\fresh\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\fresh\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\jpg\\1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\jpg\\1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\jpg\\1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\jpg\\1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\jpg\\1-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\jpg\\1-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\jpg\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\jpg\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\new\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\new\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\new\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\new\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\new\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\new\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\new\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\new\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\png\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\png\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\png\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\png\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\png\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\png\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\png\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\png\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\grocery\\product\\png\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\grocery\\product\\png\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\inner-page\\banner-p.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\inner-page\\banner-p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\inner-page\\banner-p2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\inner-page\\banner-p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\inner-page\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\inner-page\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\inner-page\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\inner-page\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-2-d.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-2-d.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-3-w.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-3-w.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-4-w.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-4-w.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-6-w.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-6-w.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo-w.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo-w.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\logos\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logos\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\bag\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\bag\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\other\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\other\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\other\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\other\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\masonry\\other\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\masonry\\other\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\banner1-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\banner1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\service-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\service-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\shoe.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\shoe.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\shoe3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\shoe3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\shoes2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\shoes2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\sub-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\sub-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\banner\\sub-banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\banner\\sub-banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\offer\\offer-bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\offer\\offer-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\offer\\offer-bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\offer\\offer-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\product\\png\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\product\\png\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\seller\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\seller\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\seller\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\seller\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\seller\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\seller\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\shoe\\seller\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe\\seller\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\team\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\team\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\team\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\team\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\banner1-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\banner1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\banner1-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\banner1-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\bg-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\bg-img.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\card1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\card1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\card2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\card3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\card3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\service-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\service-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\sub-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\sub-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\sub-banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\sub-banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\sub-banner3-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\sub-banner3-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\banner\\sub-banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\banner\\sub-banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\best-seller\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\best-seller\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\brand\\bg-brand.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\brand\\bg-brand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\offer\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\offer\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\offer\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\offer\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\offer\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\offer\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\offer\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\offer\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\jpg\\16-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\jpg\\16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\jpg\\16-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\jpg\\16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\jpg\\16-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\jpg\\16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\product\\jpg\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\product\\jpg\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\images\\watch\\special-product\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\watch\\special-product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\active-class.js",
+      "PackagePath": "staticwebassets\\assets\\js\\active-class.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\demo-search3.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo-search3.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\feather\\feather.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\feather\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\grid-style.js",
+      "PackagePath": "staticwebassets\\assets\\js\\grid-style.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\isotop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotop.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\material-photo-custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\material-photo-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\material-photo-gallery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\material-photo-gallery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\otp.js",
+      "PackagePath": "staticwebassets\\assets\\js\\otp.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\password-showhide.js",
+      "PackagePath": "staticwebassets\\assets\\js\\password-showhide.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\range-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\range-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\sticky-header.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sticky-header.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\swiper-slider\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-slider\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\swiper-slider\\swiper-custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-slider\\swiper-custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\theme-setting.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\timer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\user-dashboard-tab.js",
+      "PackagePath": "staticwebassets\\assets\\js\\user-dashboard-tab.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\wow-custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\Leaf1.png",
+      "PackagePath": "staticwebassets\\assets\\png\\Leaf1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\circle.png",
+      "PackagePath": "staticwebassets\\assets\\png\\circle.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\cookie.png",
+      "PackagePath": "staticwebassets\\assets\\png\\cookie.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\group-f.png",
+      "PackagePath": "staticwebassets\\assets\\png\\group-f.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\tomato.png",
+      "PackagePath": "staticwebassets\\assets\\png\\tomato.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\png\\tomato1.png",
+      "PackagePath": "staticwebassets\\assets\\png\\tomato1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Uniq.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Uniq.WebUI.props",
+      "PackagePath": "build\\Uniq.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Uniq.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\Uniq.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Uniq.WebUI.props",
+      "PackagePath": "buildTransitive\\Uniq.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
