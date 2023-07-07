@@ -1,0 +1,60 @@
+﻿@model SocialMedia
+
+<div class="body-wrapper">
+    <div class="container-fluid">
+        <div class="col-12">
+            <!-- ---------------------
+                                start Project Assinging
+                            ---------------- -->
+            <div class="card">
+                <form asp-area="admin" asp-controller="SocialMedia" asp-action="Update" class="form-horizontal r-separator">
+                    <input type="hidden" asp-for="@Model.ID" />
+                    <div class="card-body">
+                        <h5>Sosyal Medya Güncelle</h5>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.InstagramLink" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.InstagramLink" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.FacebookLink" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.FacebookLink" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.WhatsappLink" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.WhatsappLink" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.YoutubeLink" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.YoutubeLink" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mb-0 text-end">
+                            @if (ViewBag.Error != null)
+                            {
+                                <p class="text-center">@ViewBag.Error</p>
+                            }
+                            <a asp-area="admin" asp-controller="SocialMedia" asp-action="Index" class="btn btn-dark rounded-pill px-4 waves-effect waves-light">
+                                İptal
+                            </a>
+                            <button class="btn btn-success btn-lg rounded-pill px-4 waves-effect waves-light">
+                                Güncelle
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- ---------------------
+                                end Project Assinging
+                            ---------------- -->
+        </div>
+    </div>
+</div>

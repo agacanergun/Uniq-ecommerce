@@ -8,6 +8,7 @@
                             ---------------- -->
             <div class="card">
                 <form asp-area="admin" asp-controller="Communication" asp-action="Update" class="form-horizontal r-separator">
+                    <input type="hidden" asp-for="@Model.ID" />
                     <div class="card-body">
                         <h5>İletişim Güncelle</h5>
                         <div class="form-group row align-items-center mb-0">

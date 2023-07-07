@@ -20,8 +20,8 @@ namespace Uniq.DAL.Entities
         public string FacebookLink { get; set; }
 
 
-        [StringLength(100), Column(TypeName = "varchar(100)"), Required(), Display(Name = "Twitter Hesabı Linki")]
-        public string Twitterink { get; set; }
+        [StringLength(100), Column(TypeName = "varchar(100)"), Required(), Display(Name = "Whatsapp Linki")]
+        public string WhatsappLink { get; set; }
 
 
         [StringLength(100), Column(TypeName = "varchar(100)"), Required(), Display(Name = "Youtube Hesabı Linki")]
