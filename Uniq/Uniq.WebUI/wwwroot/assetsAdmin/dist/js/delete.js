@@ -61,3 +61,65 @@ function deleteItemCategory(id) {
     });
 }
 //KATEGORİ DELETE JS
+
+
+
+
+
+//KATEGORİ DELETE JS
+function confirmDeleteCommunication(id) {
+    swal({
+        title: "Silmek İstediğine Emin misin?",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+    }).then((willDelete) => {
+        if (willDelete) {
+            deleteItemCommunication(id);
+        }
+    });
+}
+
+function deleteItemCommunication(id) {
+    event.preventDefault();
+
+    var data = {
+        id: id
+    };
+
+    $.ajax({
+        url: '/admin/iletisim/sil',
+        type: 'POST',
+        data: data,
+        success: function (response) {
+            if (response == "Ok") {
+                swal({
+                    title: "Silme İşlemi Başarılı",
+                    icon: "success",
+                    buttons: {
+                        confirm: {
+                            text: "Tamam",
+                            value: true,
+                            visible: true,
+                            className: "",
+                            closeModal: true
+                        }
+                    }
+                }).then((value) => {
+                    if (value) {
+                        location.href = "/admin/iletisim";
+                    }
+                    else {
+                        location.href = "/admin/iletisim";
+                    }
+                });
+            } else {
+                alert(response);
+            }
+        },
+        error: function (xhr, status, error) {
+            swal("Error", "An error occurred: " + error, "error");
+        }
+    });
+}
+//KATEGORİ DELETE JS
