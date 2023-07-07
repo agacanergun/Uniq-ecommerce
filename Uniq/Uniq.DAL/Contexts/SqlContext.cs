@@ -18,6 +18,9 @@ namespace Uniq.DAL.Contexts
 
         public DbSet<Admin> Admin { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<Communication> Communication { get; set; }
+        public DbSet<CustomerServiceInstitutional> CustomerServiceInstitutional { get; set; }
+        public DbSet<SocialMedia> SocialMedia { get; set; }
 
 
 
