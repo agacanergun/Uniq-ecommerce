@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sUPUzsy4rPeR53dgwk55zgeDWdAQeqHw/3iEODFK+Nk=",
+  "Hash": "PghyYHmj2khgvOiD+mZivG6EzBlcaX6BAoNF9WxYiSI=",
   "Source": "Uniq.WebUI",
   "BasePath": "_content/Uniq.WebUI",
   "Mode": "Default",
@@ -12867,6 +12867,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assetsAdmin\\dist\\js\\datatable\\datatable-basic.init.js"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\delete.js",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "assetsAdmin/dist/js/delete.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsAdmin\\dist\\js\\delete.js"
     },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\bootstrap-switch.js",

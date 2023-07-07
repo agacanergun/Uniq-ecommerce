@@ -58,7 +58,7 @@
                                                             <a asp-area="admin" asp-controller="Category" asp-action="Update" asp-route-id="@item.ID" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-edit"></i>Güncelle</a>
                                                         </li>
                                                         <li>
-                                                            <a asp-area="admin" asp-controller="Category" asp-action="Delete" asp-route-id="@item.ID" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-trash"></i>Sil</a>
+                                                            <button onclick="confirmDeleteCategory(@item.ID)" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-trash"></i>Sil</button>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -88,4 +88,3 @@
 
     </div>
 </div>
-

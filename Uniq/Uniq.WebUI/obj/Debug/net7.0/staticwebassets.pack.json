@@ -1489,6 +1489,10 @@
       "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\datatable\\datatable-basic.init.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\delete.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\delete.js"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\forms\\bootstrap-switch.js",
       "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\forms\\bootstrap-switch.js"
     },

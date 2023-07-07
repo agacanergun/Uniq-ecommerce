@@ -52,8 +52,14 @@ namespace Uniq.WebUI.Areas.admin.Controllers
             return View(category);
         }
 
-        public string Delete(int id)
+        [Route("admin/kategoriler/sil")]
+        public async Task<string> Delete(int id)
         {
+            Category category = new Category
+            {
+                ID = id,
+            };
+            await repoCategory.Delete(category);
             return "Ok";
         }
     }
