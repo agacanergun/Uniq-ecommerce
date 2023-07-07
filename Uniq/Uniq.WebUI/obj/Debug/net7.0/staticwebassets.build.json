@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PghyYHmj2khgvOiD+mZivG6EzBlcaX6BAoNF9WxYiSI=",
+  "Hash": "GCrukAjODFz0mMuL2qVHqiLE93Hc2xeSe6ssNXMDhPs=",
   "Source": "Uniq.WebUI",
   "BasePath": "_content/Uniq.WebUI",
   "Mode": "Default",
@@ -11575,6 +11575,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assetsAdmin\\dist\\images\\crypto\\c3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\gorselhazirlaniyor.jpg",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "assetsAdmin/dist/images/gorselhazirlaniyor.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsAdmin\\dist\\images\\gorselhazirlaniyor.jpg"
     },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\images\\logos\\favicon.png",
