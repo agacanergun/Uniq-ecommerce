@@ -190,7 +190,7 @@ function deleteItemSocialMedia(id) {
 
 
 
-//müsterihizmetlerikurumsal DELETE JS
+//musterihizmetlerikurumsal DELETE JS
 function confirmDeleteCustomerServiceInstitutional(id) {
     swal({
         title: "Silmek İstediğine Emin misin?",
@@ -212,7 +212,7 @@ function deleteItemCustomerServiceInstitutional(id) {
     };
 
     $.ajax({
-        url: '/admin/müsterihizmetlerikurumsal/sil',
+        url: '/admin/musterihizmetlerikurumsal/sil',
         type: 'POST',
         data: data,
         success: function (response) {
@@ -231,10 +231,10 @@ function deleteItemCustomerServiceInstitutional(id) {
                     }
                 }).then((value) => {
                     if (value) {
-                        location.href = "/admin/müsterihizmetlerikurumsal";
+                        location.href = "/admin/musterihizmetlerikurumsal";
                     }
                     else {
-                        location.href = "/admin/müsterihizmetlerikurumsal";
+                        location.href = "/admin/musterihizmetlerikurumsal";
                     }
                 });
             } else {
@@ -246,4 +246,4 @@ function deleteItemCustomerServiceInstitutional(id) {
         }
     });
 }
-//müsterihizmetlerikurumsal DELETE JS
+//musterihizmetlerikurumsal DELETE JS

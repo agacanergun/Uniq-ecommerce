@@ -1,7 +1,63 @@
-﻿
-@{
-    ViewData["Title"] = "Add";
-}
+﻿@model CustomerServiceInstitutional
 
-<h1>Add</h1>
-
+<div class="body-wrapper">
+    <div class="container-fluid">
+        <div class="col-12">
+            <!-- ---------------------
+                                start Project Assinging
+                            ---------------- -->
+            <div class="card">
+                <form asp-area="admin" asp-controller="CustomerServiceInstitutional" asp-action="Add" class="form-horizontal r-separator">
+                    <div class="card-body">
+                        <h5>Müşteri Hizmetleri Veya Kurumsal Bilgi Ekle</h5>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Type" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <select asp-for="@Model.Type" required class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option value="" selected="">Seç</option>
+                                    <option value="Müşteri Hizmetleri">Müşteri Hizmetleri</option>
+                                    <option value="Kurumsal">Kurumsal</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Title" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.Title" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Description" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <textarea required asp-for="@Model.Description" class="form-control" id="inputEmail3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.DisplayIndex" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.DisplayIndex" type="number" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mb-0 text-end">
+                            @if (ViewBag.Error != null)
+                            {
+                                <p class="text-center">@ViewBag.Error</p>
+                            }
+                            <a asp-area="admin" asp-controller="CustomerServiceInstitutional" asp-action="Index" class="btn btn-dark rounded-pill px-4 waves-effect waves-light">
+                                İptal
+                            </a>
+                            <button class="btn btn-success btn-lg rounded-pill px-4 waves-effect waves-light">
+                                Ekle
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- ---------------------
+                                end Project Assinging
+                            ---------------- -->
+        </div>
+    </div>
+</div>

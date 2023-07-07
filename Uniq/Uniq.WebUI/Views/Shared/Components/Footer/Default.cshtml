@@ -36,7 +36,7 @@
                             <ul>
                                 @foreach (var item in Model.CustomerServiceInstitutionals)
                                 {
-                                    if (item.Type == "Kurumsal")
+                                    if (item.Type == "Müşteri Hizmetleri")
                                     {
                                         <li><a class="nav" asp-controller="Home" asp-action="CSIDetail" asp-route-id="@item.ID" asp-route-title="@item.Title">@item.Title</a></li>
                                     }
@@ -51,7 +51,7 @@
                             <ul>
                                 @foreach (var item in Model.CustomerServiceInstitutionals)
                                 {
-                                    if (item.Type == "Müşteri Hizmetleri")
+                                    if (item.Type == "Kurumsal")
                                     {
                                         <li><a class="nav" asp-controller="Home" asp-action="CSIDetail" asp-route-id="@item.ID" asp-route-title="@item.Title">@item.Title</a></li>
                                     }

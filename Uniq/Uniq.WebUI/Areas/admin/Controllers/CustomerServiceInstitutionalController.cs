@@ -13,46 +13,46 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         {
             this.repoCustomerServiceInstitutional = repoCustomerServiceInstitutional;
         }
-        [Route("admin/müsterihizmetlerikurumsal")]
+        [Route("admin/musterihizmetlerikurumsal")]
         public IActionResult Index()
         {
             var response = repoCustomerServiceInstitutional.GetAll().OrderBy(x => x.DisplayIndex).ToList();
             return View(response);
         }
-        [Route("admin/müsterihizmetlerikurumsal/ekle")]
+        [Route("admin/musterihizmetlerikurumsal/ekle")]
         public IActionResult Add()
         {
             return View();
         }
-        [Route("admin/müsterihizmetlerikurumsal/ekle"), HttpPost]
+        [Route("admin/musterihizmetlerikurumsal/ekle"), HttpPost]
         public async Task<IActionResult> Add(CustomerServiceInstitutional CustomerServiceInstitutional)
         {
             if (ModelState.IsValid)
             {
                 await repoCustomerServiceInstitutional.Add(CustomerServiceInstitutional);
-                return Redirect("/admin/müsterihizmetlerikurumsal");
+                return Redirect("/admin/musterihizmetlerikurumsal");
             }
             ViewBag.Error = "Ekleme İşlemi Başarısız";
             return View(CustomerServiceInstitutional);
         }
-        [Route("admin/müsterihizmetlerikurumsal/guncelle")]
+        [Route("admin/musterihizmetlerikurumsal/guncelle")]
         public IActionResult Update(int id)
         {
             return View(repoCustomerServiceInstitutional.GetBy(x => x.ID == id));
         }
-        [Route("admin/müsterihizmetlerikurumsal/guncelle"), HttpPost]
+        [Route("admin/musterihizmetlerikurumsal/guncelle"), HttpPost]
         public async Task<IActionResult> Update(CustomerServiceInstitutional CustomerServiceInstitutional)
         {
             if (ModelState.IsValid)
             {
                 await repoCustomerServiceInstitutional.Update(CustomerServiceInstitutional);
-                return Redirect("/admin/müsterihizmetlerikurumsal");
+                return Redirect("/admin/musterihizmetlerikurumsal");
             }
             ViewBag.Error = "Güncelleme İşlemi Başarısız";
             return View(CustomerServiceInstitutional);
         }
 
-        [Route("admin/müsterihizmetlerikurumsal/sil")]
+        [Route("admin/musterihizmetlerikurumsal/sil")]
         public async Task<string> Delete(int id)
         {
             CustomerServiceInstitutional CustomerServiceInstitutional = new CustomerServiceInstitutional

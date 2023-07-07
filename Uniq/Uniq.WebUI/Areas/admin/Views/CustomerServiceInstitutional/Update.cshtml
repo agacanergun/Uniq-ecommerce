@@ -1,57 +1,72 @@
-﻿//KATEGORİ DELETE JS
-function confirmDeleteCustomerServiceInstitutional(id) {
-    swal({
-        title: "Silmek İstediğine Emin misin?",
-        icon: "warning",
-        buttons: true,
-        dangerMode: true,
-    }).then((willDelete) => {
-        if (willDelete) {
-            deleteItemCustomerServiceInstitutional(id);
-        }
-    });
-}
+﻿@model CustomerServiceInstitutional
 
-function deleteItemCustomerServiceInstitutional(id) {
-    event.preventDefault();
+<div class="body-wrapper">
+    <div class="container-fluid">
+        <div class="col-12">
+            <!-- ---------------------
+                                start Project Assinging
+                            ---------------- -->
+            <div class="card">
+                <form asp-area="admin" asp-controller="CustomerServiceInstitutional" asp-action="Update" class="form-horizontal r-separator">
+                    <input type="hidden" asp-for="@Model.ID" />
+                    <div class="card-body">
+                        <h5>Müşteri Hizmetleri Veya Kurumsal Bilgi Güncelle</h5>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Type" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <select asp-for="@Model.Type" required class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                    @if (Model.Type == "Kurumsal")
+                                    {
+                                        <option value="Müşteri Hizmetleri">Müşteri Hizmetleri</option>
+                                        <option selected="" value="Kurumsal">Kurumsal</option>
+                                    }
+                                    else
+                                    {
+                                        <option selected="" value="Müşteri Hizmetleri">Müşteri Hizmetleri</option>
+                                        <option value="Kurumsal">Kurumsal</option>
+                                    }
 
-    var data = {
-        id: id
-    };
-
-    $.ajax({
-        url: '/admin/müsterihizmetlerikurumsal/sil',
-        type: 'POST',
-        data: data,
-        success: function (response) {
-            if (response == "Ok") {
-                swal({
-                    title: "Silme İşlemi Başarılı",
-                    icon: "success",
-                    buttons: {
-                        confirm: {
-                            text: "Tamam",
-                            value: true,
-                            visible: true,
-                            className: "",
-                            closeModal: true
-                        }
-                    }
-                }).then((value) => {
-                    if (value) {
-                        location.href = "/admin/müsterihizmetlerikurumsal";
-                    }
-                    else {
-                        location.href = "/admin/müsterihizmetlerikurumsal";
-                    }
-                });
-            } else {
-                alert(response);
-            }
-        },
-        error: function (xhr, status, error) {
-            swal("Error", "An error occurred: " + error, "error");
-        }
-    });
-}
-//KATEGORİ DELETE JS
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Title" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.Title" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.Description" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <textarea required asp-for="@Model.Description" class="form-control" id="inputEmail3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.DisplayIndex" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.DisplayIndex" type="number" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mb-0 text-end">
+                            @if (ViewBag.Error != null)
+                            {
+                                <p class="text-center">@ViewBag.Error</p>
+                            }
+                            <a asp-area="admin" asp-controller="CustomerServiceInstitutional" asp-action="Index" class="btn btn-dark rounded-pill px-4 waves-effect waves-light">
+                                İptal
+                            </a>
+                            <button class="btn btn-success btn-lg rounded-pill px-4 waves-effect waves-light">
+                                Güncelle
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- ---------------------
+                                end Project Assinging
+                            ---------------- -->
+        </div>
+    </div>
+</div>
