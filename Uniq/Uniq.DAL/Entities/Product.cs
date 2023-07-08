@@ -34,10 +34,10 @@ namespace Uniq.DAL.Entities
         public string DiscountRate { get; set; }
 
         [Display(Name = "Unique Önerilenlerde Gözüksün"), Required()]
-        public int SuggestedUnique { get; set; }
+        public bool SuggestedUnique { get; set; }
 
         [Display(Name = "Ana Sayfada Gözüksün"), Required()]
-        public int ShowOnMainPage { get; set; }
+        public bool ShowOnMainPage { get; set; }
 
         [Display(Name = "Ürün Resimleri")]
         public ICollection<ProductPicture> ProductPictures { get; set; }
