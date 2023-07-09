@@ -12,17 +12,18 @@ namespace Uniq.WebUI.Areas.admin.Controllers
     {
         IRepository<Product> repoProduct;
         IRepository<Category> repoCategory;
-        public ProductController(IRepository<Product> repoProduct, IRepository<Category> repoCategory)
+        IRepository<ProductCategory> repoProductCategory;
+        public ProductController(IRepository<Product> repoProduct, IRepository<Category> repoCategory, IRepository<ProductCategory> repoProductCategory)
         {
             this.repoProduct = repoProduct;
             this.repoCategory = repoCategory;
+            this.repoProductCategory = repoProductCategory;
 
         }
         [Route("admin/urunler")]
         public IActionResult Index()
         {
-
-            var response = repoProduct.GetAll().OrderBy(x => x.DisplayIndex).Include(x => x.ProductPictures).Include(x => x.ProductCategories).ToList();
+            var response = repoProduct.GetAll().Include(i => i.ProductCategories).ThenInclude(t => t.Category).ToList();
             return View(response);
         }
 
@@ -39,14 +40,23 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         [Route("admin/urunler/ekle"), HttpPost]
         public async Task<IActionResult> Add(ProductIndexVM model)
         {
-            //if (ModelState.IsValid)
-            //{
-            //    await repoProduct.Add(model);
-            //    return Redirect("/admin/kategoriler");
-            //}
-            //ViewBag.Error = "Ekleme İşlemi Başarısız";
-            //return View(model);
-            return View();
+            if (ModelState.IsValid)
+            {
+                decimal discountAmount = (model.Product.Price * Convert.ToInt64(model.Product.DiscountRate)) / 100;
+                model.Product.DiscountedPrice = model.Product.Price - discountAmount;
+                await repoProduct.Add(model.Product);
+                if (model.CategoriyIDs.Length > 0)
+                {
+                    for (int i = 0; i < model.CategoriyIDs.Length; i++)
+                    {
+                        await repoProductCategory.Add(new ProductCategory { ProductID = model.Product.ID, CategoryID = model.CategoriyIDs[i] });
+                    }
+                }
+
+                return Redirect("/admin/urunler");
+            }
+            ViewBag.Error = "Ekleme İşlemi Başarısız";
+            return View(model);
         }
     }
 }

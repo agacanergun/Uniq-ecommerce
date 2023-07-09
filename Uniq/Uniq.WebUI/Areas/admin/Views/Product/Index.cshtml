@@ -56,7 +56,7 @@
                                         <!-- start row -->
                                         <tr>
                                             <td>
-                                                @if (item.ProductPictures.Count == 0)
+                                                @if (item.ProductPictures == null)
                                                 {
                                                     <img width="130" src="/assetsAdmin/dist/images/gorselhazirlaniyor.jpg" />
                                                 }
@@ -84,9 +84,9 @@
 
                                                     @foreach (var categories in item.ProductCategories)
                                                     {
-                                                        category += categories;
+                                                        category += categories.Category.Name + "<hr />";
                                                     }
-                                                    @category
+                                                    @Html.Raw(category)
                                                 }
                                             </td>
                                             <td>
