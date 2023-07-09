@@ -38,13 +38,19 @@
                         <div class="form-group row align-items-center mb-0">
                             <label asp-for="@Model.Product.Price" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
                             <div class="col-9 border-start pb-2 pt-2">
-                                <input required asp-for="@Model.Product.Price" type="text" class="form-control" id="inputEmail3">
+                                <input required asp-for="@Model.Product.Price" type="text" class="form-control" id="price">
                             </div>
                         </div>
                         <div class="form-group row align-items-center mb-0">
                             <label asp-for="@Model.Product.DiscountRate" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
                             <div class="col-9 border-start pb-2 pt-2">
-                                <input required asp-for="@Model.Product.DiscountRate" type="number" class="form-control" id="inputEmail3">
+                                <input required asp-for="@Model.Product.DiscountRate" type="number" class="form-control" id="discountrate">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label for="inputEmail3" class="col-3 text-end control-label col-form-label">İndirimli Fiyatı</label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input disabled type="number" class="form-control" id="discountedprice">
                             </div>
                         </div>
                         <div class="form-group row align-items-center mb-0">
@@ -97,3 +103,5 @@
         </div>
     </div>
 </div>
+
+<script src="/assetsadmin/dist/js/discount.js"></script>

@@ -72,8 +72,26 @@
                                             <td>@item.Price</td>
                                             <td>@item.DiscountedPrice</td>
                                             <td>@item.DiscountRate</td>
-                                            <td>@item.SuggestedUnique</td>
-                                            <td>@item.ShowOnMainPage</td>
+                                            <td>
+                                                @if (item.SuggestedUnique == true)
+                                                {
+                                                    <p>Evet</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Hayır</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @if (item.ShowOnMainPage == true)
+                                                {
+                                                    <p>Evet</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Hayır</p>
+                                                }
+                                            </td>
                                             <td>
                                                 @if (item.ProductCategories.Count == 0)
                                                 {
