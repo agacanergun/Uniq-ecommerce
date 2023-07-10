@@ -38,5 +38,21 @@ namespace Uniq.WebUI.Controllers
         {
             return View(repocustomerServiceInstitutional.GetBy(x => x.ID == id));
         }
+
+        public IActionResult Category(int categoryid)
+        {
+            var productCategories = repoProductCategory.GetAll(x => x.CategoryID == categoryid);
+
+            var productIds = productCategories.Select(pc => pc.ProductID).ToList();
+
+            var products = repoProduct
+                .GetAll(x => productIds.Contains(x.ID))
+                .Include(x => x.ProductPictures)
+                .OrderBy(x => x.DisplayIndex)
+                .ToList();
+
+            return View(products);
+        }
+
     }
 }
