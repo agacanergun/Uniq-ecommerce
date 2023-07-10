@@ -1,11 +1,13 @@
-﻿<div class="swiper-slide wow fadeInUp" data-wow-delay="0.5s">
-    <div class="product-card product-card5">
+﻿@using Uniq.DAL.Entities;
+@model Product
+<div class="col wow fadeInUp" data-wow-delay="0.5s">
+    <div style=" border-radius:8px;" class="product-card product-card5">
         <div class="img-box">
-            <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/12.png" alt="product" /> </a>
+            <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="@Model.ProductPictures.FirstOrDefault().Picture" alt="product" /> </a>
 
             <!-- Arrow label -->
-            <span class="arrow-label-wrap"> <span style="background-color:#dc9749;" class="arrow-label">20% İndirimde</span> </span>
-            <span style="margin-top:40px;" class="arrow-label-wrap"> <span style="background-color:red" class="arrow-label"><s>5000.00 TL</s></span> </span>
+            <span class="arrow-label-wrap"> <span style="background-color:#dc9749;" class="arrow-label">@Model.DiscountRate% İndirimde</span> </span>
+            <span style="margin-top:40px;" class="arrow-label-wrap"> <span style="background-color:red" class="arrow-label"><s>@Model.Price TL</s></span> </span>
             <!-- Option -->
             <ul class="option-wrap">
                 <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
@@ -19,15 +21,17 @@
         <!-- Content Box -->
         <div class="content-box">
             <a href="product.html">
-                <h5>Gold leather strap brown white Luxury watch</h5>
+                <h5>@Model.Title</h5>
+                <hr />
+                <h5>@Model.ShortDescription</h5>
             </a>
+            <hr />
             <div class="thumb-wrapper">
-                <span><h4>$40.00</h4></span>
+                <span><h4>@Model.DiscountedPrice TL</h4></span>
             </div>
         </div>
     </div>
 </div>
-
 
 @*
 
