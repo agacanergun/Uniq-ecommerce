@@ -1,7 +1,10 @@
-﻿$(document).ready(function () {
-
+﻿//CKEDITOR//
+$(document).ready(function () {
+    $(".editor").each(function () {
+        CKEDITOR.replace($(this).attr("id"));
+    })
 });
-
+//CKEDITOR//
 
 
 //KATEGORİ DELETE JS
@@ -247,3 +250,67 @@ function deleteItemCustomerServiceInstitutional(id) {
     });
 }
 //musterihizmetlerikurumsal DELETE JS
+
+
+
+
+//urun DELETE JS
+function confirmDeleteProduct(id) {
+    swal({
+        title: "Silmek İstediğine Emin misin?",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+    }).then((willDelete) => {
+        if (willDelete) {
+            deleteItemProduct(id);
+        }
+    });
+}
+
+function deleteItemProduct(id) {
+    event.preventDefault();
+
+    var data = {
+        id: id
+    };
+
+    $.ajax({
+        url: '/admin/urun/sil',
+        type: 'POST',
+        data: data,
+        success: function (response) {
+            if (response == "Ok") {
+                swal({
+                    title: "Silme İşlemi Başarılı",
+                    icon: "success",
+                    buttons:
+                    {
+                        confirm:
+                        {
+                            text: "Tamam",
+                            value: true,
+                            visible: true,
+                            className: "",
+                            closeModal: true
+                        }
+                    }
+                }).then((value) => {
+                    if (value) {
+                        location.href = "/admin/urunler";
+                    }
+                    else {
+                        location.href = "/admin/urunler";
+                    }
+                });
+            }
+            else {
+                alert(response);
+            }
+        },
+        error: function (xhr, status, error) {
+            swal("Error", "An error occurred: " + error, "error");
+        }
+    });
+}
+    //urun DELETE JS
