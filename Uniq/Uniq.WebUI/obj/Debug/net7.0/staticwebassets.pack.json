@@ -4993,6 +4993,18 @@
       "PackagePath": "staticwebassets\\ckeditor\\vendor\\promise.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\productPicture\\1049nargıletakım.jpg",
+      "PackagePath": "staticwebassets\\productPicture\\1049nargıletakım.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\productPicture\\862download.jpg",
+      "PackagePath": "staticwebassets\\productPicture\\862download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\productPicture\\988images.jpg",
+      "PackagePath": "staticwebassets\\productPicture\\988images.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Uniq.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

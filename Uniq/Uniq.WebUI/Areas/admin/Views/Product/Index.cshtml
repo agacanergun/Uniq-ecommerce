@@ -55,7 +55,7 @@
                                         <!-- start row -->
                                         <tr>
                                             <td>
-                                                @if (item.ProductPictures == null)
+                                                @if (item.ProductPictures.Count==0)
                                                 {
                                                     <img width="130" src="/assetsAdmin/dist/images/gorselhazirlaniyor.jpg" />
                                                 }
@@ -112,7 +112,7 @@
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                         <li>
-                                                            <a asp-area="admin" asp-controller="ProductPicture" asp-action="Index" asp-route-id="@item.ID" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-eye"></i>Görseller</a>
+                                                            <a asp-area="admin" asp-controller="ProductPicture" asp-action="Index" asp-route-productid="@item.ID" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-eye"></i>Görseller</a>
                                                         </li>
                                                         <li>
                                                             <a asp-area="admin" asp-controller="Product" asp-action="Update" asp-route-id="@item.ID" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-edit"></i>Güncelle</a>

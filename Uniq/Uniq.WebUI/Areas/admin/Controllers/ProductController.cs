@@ -27,7 +27,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         [Route("admin/urunler")]
         public IActionResult Index()
         {
-            var response = repoProduct.GetAll().Include(i => i.ProductCategories).ThenInclude(t => t.Category).ToList();
+            var response = repoProduct.GetAll().Include(i => i.ProductCategories).ThenInclude(t => t.Category).Include(x=>x.ProductPictures).ToList();
             return View(response);
         }
 
@@ -106,14 +106,13 @@ namespace Uniq.WebUI.Areas.admin.Controllers
                 var productPictures = repoProductPicture.GetAll(x => x.ProductID == id).ToList();
                 foreach (var item in productPictures)
                 {
-                    string deleteFilePath = Path.Combine(hostingEnvironment.WebRootPath, item.Picture);
+                    string deleteFilePath = Path.Combine(hostingEnvironment.WebRootPath, item.Picture.TrimStart('/'));
                     if (System.IO.File.Exists(deleteFilePath))
                     {
                         System.IO.File.Delete(deleteFilePath);
                     }
                 }
                 await repoProduct.Delete(product);
-                await repoProductPicture.DeleteRange(productPictures);
             }
             return "Ok";
         }
