@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Uniq.BL.Repositories;
 using Uniq.DAL.Entities;
+using Uniq.WebUI.ViewModels;
 
 namespace Uniq.WebUI.Controllers
 {
@@ -17,7 +18,13 @@ namespace Uniq.WebUI.Controllers
         public IActionResult Index(string name, int id)
         {
             var product = repoProduct.GetAll().Include(x => x.ProductPictures).FirstOrDefault(x => x.ID == id);
-            return View();
+            var releatedProducts = repoProduct.GetAll().Include(x => x.ProductPictures).OrderBy(o => Guid.NewGuid()).Take(5).ToList();
+            ProductDetailVM vm = new ProductDetailVM
+            {
+                Product = product,
+                ReleatedProducts = releatedProducts,
+            };
+            return View(vm);
         }
     }
 }
