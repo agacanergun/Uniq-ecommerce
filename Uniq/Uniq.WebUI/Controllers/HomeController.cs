@@ -39,7 +39,8 @@ namespace Uniq.WebUI.Controllers
             return View(repocustomerServiceInstitutional.GetBy(x => x.ID == id));
         }
 
-        public IActionResult Category(int categoryid)
+        [Route("Kategoriler/{categoryname}-{categoryid}")]
+        public IActionResult Category(string categoryname, int categoryid)
         {
             var productCategories = repoProductCategory.GetAll(x => x.CategoryID == categoryid);
 
@@ -51,7 +52,16 @@ namespace Uniq.WebUI.Controllers
                 .OrderBy(x => x.DisplayIndex)
                 .ToList();
 
-            return View(products);
+            HomeIndexVM vm = new HomeIndexVM
+            {
+                BestSalesProducts = repoProduct.GetAll().Include(x => x.ProductPictures).OrderBy(o => Guid.NewGuid()).Take(5).ToList(),
+                ProductCategories = repoProductCategory.GetAll().ToList(),
+                UniqProducts = repoProduct.GetAll(x => x.SuggestedUnique == true).Include(x => x.ProductPictures).OrderBy(x => x.DisplayIndex).ToList(),
+                Categories = repoCategory.GetAll().OrderBy(x => x.DisplayIndex).ToList(),
+                MainPageProducts = products,
+            };
+            ViewBag.categoryname = categoryname;
+            return View(vm);
         }
 
     }

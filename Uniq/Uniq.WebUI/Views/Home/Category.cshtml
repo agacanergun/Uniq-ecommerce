@@ -1,7 +1,892 @@
-﻿
-@{
-    ViewData["Title"] = "Category";
-}
+﻿@using Uniq.WebUI.ViewModels;
+@model HomeIndexVM
 
-<h1>Category</h1>
+<!-- Main Start -->
+<main class="main">
+    <!-- Home Banner Section Start -->
+    <section class="home-slider-common home-slider5 ratio_40 pt-0">
+        <div class="banner">
+            <div>
+                <img class="bg-img img-fluid" src="/assets/images/watch/banner/banner1.jpg" alt="banner" />
+            </div>
+            <!-- Banner Image Left -->
+            <img class="img-fluid banner-left-img d-none d-sm-block" src="/assets/images/watch/banner/banner1-1.png" alt="banner" />
 
+            <!-- Content Box -->
+            <div class="content-box">
+                <p class="offer"><span></span>sdadsadsasdasaddsaUp to 50% Off<span></span></p>
+                <h1 class="heading">Elegance is an <span>Attitude</span></h1>
+                <p class="content d-none d-xl-block">We are happy to introduce our newest watch collection, They come in different sizes and colors, and all feature a stainless steel back</p>
+
+                <div class="btn-style5">
+                    <a href="shop-left-sidebar.html" class="btn">ORDER NOW</a>
+                </div>
+
+            </div>
+
+            <!-- Banner Image Right -->
+            <img class="img-fluid banner-right-img" src="/assets/images/watch/banner/banner1-2.png" alt="banner" />
+        </div>
+    </section>
+    <!-- Home Banner Section End -->
+    <!-- Popular Store Section Start -->
+    <section class="pt-0">
+        <div class="container-lg">
+            <div class="title-box6 side-by-side align-items-end">
+                <ul class="nav nav-tabs6" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a asp-controller="Home" asp-action="Index" class="nav-link"
+                           id="latest-products-tab"
+                           aria-selected="true">
+                            Popüler Ürünler
+                        </a>
+                    </li>
+                    @foreach (var item in Model.Categories)
+                    {
+                        <li class="border-list-item">
+                            <span class="dashed-border"></span>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            @if (item.Name == @ViewBag.categoryname)
+                            {
+
+                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@item.Name" class="nav-link active">
+                                    @item.Name
+                                </a>
+
+                            }
+                            else
+                            {
+                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@item.Name" class="nav-link">
+                                    @item.Name
+                                </a>
+                            }
+                        </li>
+                    }
+
+                </ul>
+            </div>
+
+            <div class="tab-content ratio_asos" id="myTabContent">
+                <!-- Latest Product Tabs Start -->
+                <div class="tab-pane fade show active" id="latest-products" role="tabpanel" aria-labelledby="latest-products-tab">
+                    <div class="latest-products">
+                        <div class="row g-2 g-sm-3 g-xl-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5">
+
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                if (i < Model.MainPageProducts.Count && Model.MainPageProducts[i] != null)
+                                {
+                                    <partial name="_product" model="Model.MainPageProducts[i]" />
+                                }
+                            }
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Latest Product Tabs End -->
+                <!-- Bes Seller Tabs Start -->
+                <div class="tab-pane fade" id="best-selling" role="tabpanel" aria-labelledby="best-selling-tab">
+                    <div class="best-selling">
+                        <div class="row g-2 g-sm-3 g-xl-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                if (i < Model.MainPageProducts.Count && Model.MainPageProducts[i] != null)
+                                {
+                                    <partial name="_product" model="Model.MainPageProducts[i]" />
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+                <!-- Bes Seller Tabs End -->
+                <!-- Feature Product Tabs Start -->
+                <div class="tab-pane fade" id="feature-products" role="tabpanel" aria-labelledby="feature-products-tab">
+                    <div class="best-selling">
+                        <div class="row g-2 g-sm-3 g-xl-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5">
+                            <div class="col wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/1.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/2.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/3.png" alt="product" /> </a>
+
+                                        <!-- Arrow label -->
+                                        <span class="arrow-label-wrap"> <span class="arrow-label bg-theme-green-label"> Sale 20%</span> </span>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/4.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/5.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/6.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/7.png" alt="product" /> </a>
+
+                                        <!-- Arrow label -->
+                                        <span class="arrow-label-wrap"> <span class="arrow-label bg-theme-green-label"> Sale 20%</span> </span>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/8.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/9.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="product-card product-card5">
+                                    <div class="img-box">
+                                        <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assets/images/watch/product/10.png" alt="product" /> </a>
+
+                                        <!-- Option -->
+                                        <ul class="option-wrap">
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                <a href="javascript:void(0)" class="wishlist-btn">
+                                                    <i data-feather="heart"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                                <a href="compare.html"><i data-feather="repeat"></i></a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="View Product">
+                                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#viewModal">
+                                                    <i data-feather="eye"></i>
+                                                </a>
+                                            </li>
+                                            <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Cart">
+                                                <a href="javascript:void(0)" class="addtocart-btn">
+                                                    <i data-feather="shopping-bag"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Content Box -->
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <h5>Black/ Brown Suede Leather Berkeley 38</h5>
+                                        </a>
+                                        <div class="thumb-wrapper">
+                                            <span>$50.00</span>
+                                            <!-- Thumbnail -->
+                                            <ul class="thumbnail-img">
+                                                <li class="active thumb"><img src="/assets/images/watch/product/2.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/3.png" alt="thumbnail" /></li>
+                                                <li class="thumb"><img src="/assets/images/watch/product/4.png" alt="thumbnail" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature Product Tabs End -->
+            </div>
+        </div>
+    </section>
+    <!-- Popular Store Section End -->
+    <!-- Sub Banner Section Start -->
+    <section class="sub-banner-6 pt-0">
+        <div class="container-lg">
+            <div class="row g-0 ratio2_1">
+                <div class="col-md-6 order-2 order-md-1">
+                    <div class="banner-content">
+                        <h3>Smart Watch Will Make Your Life Easier & Fast</h3>
+                        <p>
+                            The best smartwatch collection makes your life easier, there are different brands and types of watches available for your match. it has different features like call, earphones,
+                            vibration, etc.
+                        </p>
+                        <div class="btn-style5">
+                            <a href="shop-left-sidebar.html" class="btn">EXPLORE MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="img-box">
+                        <img class="bg-img" src="/assets/images/watch/banner/sub-banner.jpg" alt="banner" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Banner Section End -->
+    <!-- Best Seller Section Start -->
+    <section class="best-seller3 pt-0">
+        <div class="container-lg">
+            <div class="row gy-4 g-lg-0">
+                <div style="border-right: 1px solid #36343e;" class="col-sm-6 col-lg-4 wow fadeInUp">
+                    <div class="product-box">
+                        <div class="title-box6">
+                            <h2 class="main-title">UNIQUE Önerileri</h2>
+                        </div>
+
+                        <div class="product-wrapper">
+
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                if (i < Model.UniqProducts.Count && Model.UniqProducts[i] != null)
+                                {
+                                    <div class="product-card-side product-card-side3">
+                                        <div class="img-wrap">
+                                            <a href="product.html">
+                                                <img style="border-radius:8px;" class="img-fluid" src="@Model.UniqProducts[i].ProductPictures.FirstOrDefault().Picture" alt="bag" />
+                                            </a>
+                                        </div>
+                                        <div class="content-box">
+                                            <a href="product.html">
+                                                <p>@Model.UniqProducts[i].Title</p>
+                                                <h5>@Model.UniqProducts[i].ShortDescription</h5>
+                                                <span>@Model.UniqProducts[i].DiscountedPrice TL</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 wow fadeInUp">
+                    <div class="product-box">
+                        <div class="title-box6">
+                            <h2 class="main-title">Çok Satanlar</h2>
+                        </div>
+
+                        <div class="product-wrapper">
+                            @foreach (var item in Model.BestSalesProducts)
+                            {
+                                <div class="product-card-side product-card-side3">
+                                    <div class="img-wrap">
+                                        <a href="product.html">
+                                            <img style="border-radius:8px;" class="img-fluid" src="@item.ProductPictures.FirstOrDefault().Picture" alt="bag" />
+                                        </a>
+                                    </div>
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <p>@item.Title</p>
+                                            <h5>@item.ShortDescription</h5>
+                                            <span>@item.DiscountedPrice TL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 wow fadeInUp">
+                    <div class="product-box">
+                        <div class="title-box6">
+                            <h2 class="main-title">UNIQUE Önerileri</h2>
+                        </div>
+
+                        <div class="product-wrapper">
+                            @for (int i = 5; i < 10; i++)
+                            {
+                                if (i < Model.UniqProducts.Count && Model.UniqProducts[i] != null)
+                                {
+                                    <div class="product-card-side product-card-side3">
+                                        <div class="img-wrap">
+                                            <a href="product.html">
+                                                <img style="border-radius:8px;" class="img-fluid" src="@Model.UniqProducts[i].ProductPictures.FirstOrDefault().Picture" alt="bag" />
+                                            </a>
+                                        </div>
+                                        <div class="content-box">
+                                            <a href="product.html">
+                                                <p>@Model.UniqProducts[i].Title</p>
+                                                <h5>@Model.UniqProducts[i].ShortDescription</h5>
+                                                <span>@Model.UniqProducts[i].DiscountedPrice TL</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Best Seller Section End -->
+    <!-- Feature Collection Section Start -->
+    <section class="pt-0 ratio_asos">
+        <div class="container-lg">
+            <div class="tab-pane fade show active" id="latest-products" role="tabpanel" aria-labelledby="latest-products-tab">
+                <div class="latest-products">
+                    <div class="row g-2 g-sm-3 g-xl-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5">
+
+                        @for (int i = 5; i < 10; i++)
+                        {
+                            if (i < Model.MainPageProducts.Count && Model.MainPageProducts[i] != null)
+                            {
+                                <partial name="_product" model="Model.MainPageProducts[i]" />
+                            }
+                            else
+                            {
+                                <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                                    <div style=" border-radius:8px;" class="product-card product-card5">
+                                        <div class="img-box">
+                                            <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assetsAdmin/dist/images/gorselhazirlaniyor.jpg" alt="product" /> </a>
+
+                                            <!-- Arrow label -->
+                                            <span class="arrow-label-wrap"> <span style="background-color:#dc9749;" class="arrow-label">10% İndirimde</span> </span>
+                                            <span style="margin-top:40px;" class="arrow-label-wrap"> <span style="background-color:red" class="arrow-label"><s>100 TL</s></span> </span>
+                                            <!-- Option -->
+                                            <ul class="option-wrap">
+                                                <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                    <a href="javascript:void(0)" class="wishlist-btn">
+                                                        <i data-feather="heart"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Content Box -->
+                                        <div class="content-box">
+                                            <a href="product.html">
+                                                <h5>Ürün Hazırlanıyor</h5>
+                                                <hr />
+                                                <h5>Ürün Hazırlanıyor</h5>
+                                            </a>
+                                            <hr />
+                                            <div class="thumb-wrapper">
+                                                <span><h4>90 TL</h4></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            }
+                        }
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Collection Section End -->
+    <!-- Service Section start -->
+    <section class="service-section service-section4 service-section5 pt-0 mt-0">
+        <div class="container-lg">
+            <div class="banner-box mt-0">
+                <img class="bg-img" src="/assets/images/watch/banner/service-bg.jpg" alt="banner" />
+
+                <div class="row g-4 g-lg-0">
+                    <div class="col-6 col-lg-3">
+                        <div class="service-box">
+                            <div class="media">
+                                <svg>
+                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#truck"></use>
+                                </svg>
+                                <div class="media-body">
+                                    <h5>Free Shipping</h5>
+                                    <span>From all orders over $200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="service-box">
+                            <div class="media">
+                                <svg>
+                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#component"></use>
+                                </svg>
+                                <div class="media-body">
+                                    <h5>FREE RETURNS</h5>
+                                    <span>Return money within 30 days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="service-box">
+                            <div class="media">
+                                <svg>
+                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#dollar"></use>
+                                </svg>
+                                <div class="media-body">
+                                    <h5>SECURE SHOPPING</h5>
+                                    <span>You're in safe hands</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="service-box">
+                            <div class="media">
+                                <svg>
+                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#thum"></use>
+                                </svg>
+                                <div class="media-body">
+                                    <h5>OVER 10,000 STYLES</h5>
+                                    <span>We have everything you need</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+    <!-- Feature Collection Section Start -->
+    <section class="pt-0 ratio_asos">
+        <div class="container-lg">
+            <div class="tab-pane fade show active" id="latest-products" role="tabpanel" aria-labelledby="latest-products-tab">
+                <div class="latest-products">
+                    <div class="row g-2 g-sm-3 g-xl-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5">
+                        @for (int i = 10; i < 15; i++)
+                        {
+                            if (i < Model.MainPageProducts.Count && Model.MainPageProducts[i] != null)
+                            {
+                                <partial name="_product" model="Model.MainPageProducts[i]" />
+                            }
+                            else
+                            {
+                                <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                                    <div style=" border-radius:8px;" class="product-card product-card5">
+                                        <div class="img-box">
+                                            <a href="product.html" class="primary-img"><img class="img-fluid bg-img" src="/assetsAdmin/dist/images/gorselhazirlaniyor.jpg" alt="product" /> </a>
+
+                                            <!-- Arrow label -->
+                                            <span class="arrow-label-wrap"> <span style="background-color:#dc9749;" class="arrow-label">10% İndirimde</span> </span>
+                                            <span style="margin-top:40px;" class="arrow-label-wrap"> <span style="background-color:red" class="arrow-label"><s>100 TL</s></span> </span>
+                                            <!-- Option -->
+                                            <ul class="option-wrap">
+                                                <li data-bs-toggle="tooltip" data-bs-placement="left" title="My Wishlist">
+                                                    <a href="javascript:void(0)" class="wishlist-btn">
+                                                        <i data-feather="heart"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Content Box -->
+                                        <div class="content-box">
+                                            <a href="product.html">
+                                                <h5>Ürün Hazırlanıyor</h5>
+                                                <hr />
+                                                <h5>Ürün Hazırlanıyor</h5>
+                                            </a>
+                                            <hr />
+                                            <div class="thumb-wrapper">
+                                                <span><h4>90 TL</h4></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            }
+                        }
+                        @for (int i = 15; i < Model.MainPageProducts.Count(); i++)
+                        {
+                            if (i < Model.MainPageProducts.Count && Model.MainPageProducts[i] != null)
+                            {
+                                <partial name="_product" model="Model.MainPageProducts[i]" />
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Collection Section End -->
+</main>
+<!-- Main End -->
