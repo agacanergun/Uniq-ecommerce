@@ -41,7 +41,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
                 ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "UniqAdminAuth");
                 await HttpContext.SignInAsync("UniqAdminAuth", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties() { IsPersistent = true });
                 if (string.IsNullOrEmpty(ReturnUrl))
-                    return Redirect("/admin/adminler");
+                    return Redirect("/admin/siparisler");
                 else return Redirect(ReturnUrl);
             }
             else
