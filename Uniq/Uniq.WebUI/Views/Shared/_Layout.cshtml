@@ -314,83 +314,8 @@
                         <!-- Cart Menu Start -->
                         <li>
                             <div class="dropdown shopingbag">
-                                <a href="javascript:void(0)" class="cart-button"><i data-feather="shopping-bag"></i> <span class="notification-label cartCounter">3</span></a>
-                                <a href="javascript:void(0)" class="overlay-cart overlay-common"></a>
-                                <div class="onhover-cart-dropdown">
-                                    <div class="onhover-show-div">
-                                        <div class="dropdown-header">
-                                            <div class="control">
-                                                <a href="cart.html">Shopping Cart</a>
-                                                <button class="back-cart"><i data-feather="arrow-right"></i></button>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-wrap custom-scroll">
-                                            <!-- Cart Item Start -->
-                                            <div class="cart-card media">
-                                                <a href="product.html"> <img src="/assets/images/fashion/product/front/8.jpg" class="img-fluid" alt="product" /> </a>
-                                                <div class="media-body">
-                                                    <a href="product.html"> <h6>Concrete Jungle Pack</h6></a>
-                                                    <span>$120.00</span>
-                                                    <div class="plus-minus dark-plus-minus">
-                                                        <i class="sub" data-feather="minus"></i>
-                                                        <input type="number" value="1" min="1" max="10" />
-                                                        <i class="add" data-feather="plus"></i>
-                                                    </div>
-                                                </div>
-                                                <button class="remove-cart"><i data-feather="x"></i></button>
-                                            </div>
-                                            <!-- Cart Item End -->
-                                            <!-- Cart Item Start -->
-                                            <div class="cart-card media">
-                                                <a href="product.html"> <img src="/assets/images/fashion/product/front/9.jpg" class="img-fluid" alt="product" /> </a>
-                                                <div class="media-body">
-                                                    <a href="product.html"> <h6>Concrete Jungle Pack</h6></a>
-                                                    <span>$120.00</span>
-                                                    <div class="plus-minus dark-plus-minus">
-                                                        <i class="sub" data-feather="minus"></i>
-                                                        <input type="number" value="1" min="1" max="10" />
-                                                        <i class="add" data-feather="plus"></i>
-                                                    </div>
-                                                </div>
-                                                <button class="remove-cart"><i data-feather="x"></i></button>
-                                            </div>
-                                            <!-- Cart Item End -->
-                                            <!-- Cart Item Start -->
-                                            <div class="cart-card media">
-                                                <a href="product.html"> <img src="/assets/images/fashion/product/front/7.jpg" class="img-fluid" alt="product" /> </a>
-                                                <div class="media-body">
-                                                    <a href="product.html"> <h6>Concrete Jungle Pack</h6></a>
-                                                    <span>$120.00</span>
-                                                    <div class="plus-minus dark-plus-minus">
-                                                        <i class="sub" data-feather="minus"></i>
-                                                        <input type="number" value="1" min="1" max="10" />
-                                                        <i class="add" data-feather="plus"></i>
-                                                    </div>
-                                                </div>
-                                                <button class="remove-cart"><i data-feather="x"></i></button>
-                                            </div>
-                                            <!-- Cart Item End -->
-                                        </div>
-                                        <div class="dropdown-footer">
-                                            <div class="freedelevery">
-                                                <p class="terms-condition">FREE SHIPPING! Continue Shopping to add more product to you cart and receive free shipping for orders over <strong>$500</strong></p>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-                                                </div>
-                                            </div>
-                                            <div class="total-price">
-                                                <span>Total</span>
-                                                <span>$450</span>
-                                            </div>
-
-                                            <div class="btn-group block-group">
-                                                <a href="cart.html" class="btn-solid">View Cart</a>
-                                                <a href="payment.html" class="btn-outline">Checkout</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a asp-controller="Cart" asp-action="Index" class="cart-button"><i data-feather="shopping-bag"></i> <span class="notification-label cartCounter"></span></a>
+                                <a class="overlay-cart overlay-common"></a>
                             </div>
                         </li>
                         <!-- Cart Menu End -->
@@ -491,10 +416,13 @@
     <!-- Theme Settings Js -->
     <script src="/assets/js/theme-setting.js"></script>
 
+
+    <script src="/assetsAdmin/dist/libs/jquery/dist/jquery.min.js"></script>
+
     <!-- SHOPPİNG CART JS* -->
     <script src="/assets/js/shoppingcart.js"></script>
 
-    <script src="/assetsAdmin/dist/libs/jquery/dist/jquery.min.js"></script>
+   
 
 </body>
 <!-- Body End -->

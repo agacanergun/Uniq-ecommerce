@@ -622,12 +622,12 @@
                                 {
                                     <div class="product-card-side product-card-side3">
                                         <div class="img-wrap">
-                                            <a href="product.html">
+                                            <a asp-controller="Product" asp-action="Index" asp-route-name="@Model.UniqProducts[i].Title" asp-route-id="@Model.UniqProducts[i].ID">
                                                 <img style="border-radius:8px;" class="img-fluid" src="@Model.UniqProducts[i].ProductPictures.FirstOrDefault().Picture" alt="bag" />
                                             </a>
                                         </div>
                                         <div class="content-box">
-                                            <a href="product.html">
+                                            <a asp-controller="Product" asp-action="Index" asp-route-name="@Model.UniqProducts[i].Title" asp-route-id="@Model.UniqProducts[i].ID">
                                                 <p>@Model.UniqProducts[i].Title</p>
                                                 <h5>@Model.UniqProducts[i].ShortDescription</h5>
                                                 <span>@Model.UniqProducts[i].DiscountedPrice TL</span>
@@ -650,12 +650,12 @@
                             {
                                 <div class="product-card-side product-card-side3">
                                     <div class="img-wrap">
-                                        <a href="product.html">
+                                        <a asp-controller="Product" asp-action="Index" asp-route-name="@item.Title" asp-route-id="@item.ID">
                                             <img style="border-radius:8px;" class="img-fluid" src="@item.ProductPictures.FirstOrDefault().Picture" alt="bag" />
                                         </a>
                                     </div>
                                     <div class="content-box">
-                                        <a href="product.html">
+                                        <a asp-controller="Product" asp-action="Index" asp-route-name="@item.Title" asp-route-id="@item.ID">
                                             <p>@item.Title</p>
                                             <h5>@item.ShortDescription</h5>
                                             <span>@item.DiscountedPrice TL</span>
@@ -679,12 +679,12 @@
                                 {
                                     <div class="product-card-side product-card-side3">
                                         <div class="img-wrap">
-                                            <a href="product.html">
+                                            <a asp-controller="Product" asp-action="Index" asp-route-name="@Model.UniqProducts[i].Title" asp-route-id="@Model.UniqProducts[i].ID">
                                                 <img style="border-radius:8px;" class="img-fluid" src="@Model.UniqProducts[i].ProductPictures.FirstOrDefault().Picture" alt="bag" />
                                             </a>
                                         </div>
                                         <div class="content-box">
-                                            <a href="product.html">
+                                            <a asp-controller="Product" asp-action="Index" asp-route-name="@Model.UniqProducts[i].Title" asp-route-id="@Model.UniqProducts[i].ID">
                                                 <p>@Model.UniqProducts[i].Title</p>
                                                 <h5>@Model.UniqProducts[i].ShortDescription</h5>
                                                 <span>@Model.UniqProducts[i].DiscountedPrice TL</span>

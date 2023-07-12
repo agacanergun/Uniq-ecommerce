@@ -1,7 +1,7 @@
-﻿(function ($) {
-
+﻿$(document).ready(function () {
     getCartCounter();
-})(jQuery);
+});
+
 
 function addCart(productid) {
     var istenenmiktar = parseInt($(".inputQuantity").val())
@@ -17,15 +17,15 @@ function addCart(productid) {
     });
 }
 
-//function getCartCounter() {
-//    $.ajax({
-//        url: "/sepetim/sayiver",
-//        type: "GET",
-//        success: function (data) {
-//            $(".cartCounter").text(data);
-//        }
-//    });
-//}
+function getCartCounter() {
+    $.ajax({
+        url: "/sepetim/sayiver",
+        type: "GET",
+        success: function (data) {
+            $(".cartCounter").text(data);
+        }
+    });
+}
 
 //function removeCart(productid) {
 //    $.ajax({

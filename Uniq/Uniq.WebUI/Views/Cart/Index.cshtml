@@ -1,7 +1,84 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@using Uniq.WebUI.Models;
+@model List<Cart>
 
-<h1>Index</h1>
+<section class="section-b-space card-page">
+    <div class="container-lg">
+        <div class="row g-3 g-md-4 cart">
+            <div class="col-md-7 col-lg-8">
+                <div class="cart-wrap">
+                    <div class="items-list">
+                        <table  class="table cart-table m-md-0">
+                            <thead >
+                                <tr >
+                                    <th style="color:white;" class="d-none d-sm-table-cell">Ürün Resmi</th>
+                                    <th style="color:white;" class="d-none d-sm-table-cell">Ürün</th>
+                                    <th style="color:white;" class="d-none d-sm-table-cell">Fiyat</th>
+                                    <th style="color:white;" class="d-none d-lg-table-cell">Miktar</th>
+                                    <th style="color:white;" class="d-none d-xl-table-cell">Toplam</th>
+                                </tr>
+                            </thead>
 
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="product-detail">
+                                            <img style="border-radius:8px;" class="pr-img" src="/assets/images/fashion/product/front/8.jpg" alt="image">
+                                            <div class="details">
+                                                <div class="plus-minus mt-2 d-inline-flex d-lg-none">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                                    <input type="number" value="1" min="1" max="10">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    
+                                    <td style="color:white;" class="price d-none d-sm-table-cell">KALİTELİ CEKET</td>
+
+                                    <td style="color:white;" class="price d-none d-sm-table-cell">120.00 TL</td>
+                                    <td class="d-none d-lg-table-cell">
+                                        <div class="plus-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            <input type="number" value="1" min="1" max="10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                        </div>
+                                    </td>
+                                    <td style="color:white;" class="total d-none d-xl-table-cell">120.00 TL</td>
+                                </tr>
+
+                             
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-lg-4">
+                <div class="summery-wrap">
+                    <div style="border-radius:8px;" class="cart-wrap grand-total-wrap">
+                        <div>
+                            <div class="order-summery-box">
+                                <h5 class="cart-title text-center">Sepet Detayları</h5>
+                                <ul class="order-summery">
+                                    <li class="pb-0">
+                                        <span>Total Amount</span>
+                                        <span>$270.00</span>
+                                    </li>
+                                </ul>
+                                <div class="row g-3 mt-2">
+                                    <div class="col-6 col-md-12">
+                                        <a href="address.html" class="btn-solid checkout-btn"> Satın Al <i class="arrow"></i></a>
+                                    </div>
+                                    <div class="col-6 col-md-12">
+                                        <a href="/" class="btn-outline w-100 justify-content-center checkout-btn"> Alışverişe Devam Et </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
