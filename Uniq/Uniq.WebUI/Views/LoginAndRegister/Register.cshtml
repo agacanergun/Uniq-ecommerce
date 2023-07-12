@@ -1,0 +1,57 @@
+﻿@using Uniq.DAL.Entities;
+@model Customer
+
+<div class="main">
+    <section class="page-body p-0">
+        <div class="row g-0 ratio_asos">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="content-box text-center">
+                    <div>
+                        <h5>Kayıt Ol</h5>
+                        <hr />
+                        <form asp-controller="LoginAndRegister" asp-action="Register" class="custom-form form-pill">
+
+                            <div class="input-box">
+
+                                <label asp-for="@Model.Name"></label>
+                                <input asp-for="@Model.Name" class="form-control" required="">
+                            </div>
+
+                            <div class="input-box">
+
+                                <label asp-for="@Model.Surname"></label>
+                                <input asp-for="@Model.Surname" class="form-control" required="">
+                            </div>
+
+                            <div class="input-box">
+
+                                <label asp-for="@Model.PhoneNo"></label>
+                                <input asp-for="@Model.PhoneNo" class="form-control" required="">
+                            </div>
+
+                            <div class="input-box">
+
+                                <label asp-for="@Model.Email"></label>
+                                <input asp-for="@Model.Email" class="form-control" type="email" required="">
+                            </div>
+
+                            <div class="input-box">
+
+                                <label asp-for="@Model.Password"></label>
+                                <input asp-for="@Model.Password" class="form-control" type="password" required="">
+                            </div>
+
+                            <button type="submit" class="btn-solid rounded-pill line-none theme-color">Kayıt Ol <i class="arrow"></i></button>
+                        </form>
+
+                        <span class="backto-link font-default content-color text-decoration-none">
+                            Bir Hesabınız Mı Var? <a class="text-decoration-underline theme-color" asp-controller="LoginAndRegister" asp-action="Index">Giriş Yap</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </section>
+</div>

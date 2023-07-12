@@ -29,6 +29,9 @@ namespace Uniq.DAL.Entities
         [StringLength(32), Column(TypeName = "varchar(32)"), Required(), Display(Name = "Şifre")]
         public string Password { get; set; }
 
+        public int AccountStatus { get; set; }
+        public int VerificationCode { get; set; }
+
         public IEnumerable<CustomerAdresses> CustomerAdresses { get; set; }
     }
 }
