@@ -1649,6 +1649,10 @@
       "PackagePath": "staticwebassets\\assetsAdmin\\dist\\libs\\simplebar\\dist\\simplebar.min.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\asdasd.JPG",
+      "PackagePath": "staticwebassets\\assets\\asdasd.JPG"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },

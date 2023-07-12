@@ -1,7 +1,49 @@
-﻿
-@{
-    ViewData["Title"] = "VerifyAccount";
-}
+﻿@using Uniq.WebUI.Models;
+@model VerifyAcc
+<div class="main">
+    <!-- Otp Section Start -->
+    <section class="page-body p-0">
+        <div class="row g-0 ratio_asos">
+            <div class="order-2 order-lg-1 col-lg-5">
+                <div class="content-box">
+                    <div>
+                        <h5>DOĞRULAMA KODU <span class="bg-theme-blue"></span></h5>
+                        <p class="font-md content-color">İlk Giriş İçin Doğrulama Kontrol Kodunuzu Belirtilen Mail Adresinize Gönderdik.</p>
 
-<h1>VerifyAccount</h1>
+                        <span class="font-md edit">
+                            @Model.Email
+                        </span>
 
+                        <form class="custom-form form-pill" method="post" asp-controller="LoginAndRegister" asp-action="VerifyAccount">
+                            <input type="hidden" asp-for="@Model.Email" />
+                            <div class="input-box otp-input">
+                                <input asp-for="@Model.Number1" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                                <input asp-for="@Model.Number2" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                                <input asp-for="@Model.Number3" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                                <input asp-for="@Model.Number4" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                                <input asp-for="@Model.Number5" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                                <input asp-for="@Model.Number6" class="otp form-control" min="0" max="9" placeholder="0" type="number" required="" maxlength="1">
+                            </div>
+
+                            <button type="submit" class="btn-solid rounded-pill line-none">Giriş Yap <i class="arrow"></i></button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-1 order-lg-2 col-lg-7">
+                <div class="img-box bg-size" style="
+        background-image: url(file:///C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Web-Template/oslo/assets/images/inner-page/banner.jpg);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        ">
+                    <img class="bg-img" src="/assets/asdasd.jpg" alt="banner" style="display: none;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Otp Section End -->
+</div>

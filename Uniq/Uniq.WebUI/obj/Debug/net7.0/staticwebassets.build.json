@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tmApmgwRLm1AsoUJ21suOyLPQCzYK+xE8+mAQPBvfvw=",
+  "Hash": "K2XnY6dL88j2UJjBBNE37BWM3hUTdXHbg/pcuTzpEnE=",
   "Source": "Uniq.WebUI",
   "BasePath": "_content/Uniq.WebUI",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\asdasd.JPG",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "assets/asdasd.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\asdasd.JPG"
+    },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\css\\style.css",
       "SourceId": "Uniq.WebUI",

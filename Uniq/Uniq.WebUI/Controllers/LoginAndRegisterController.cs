@@ -6,6 +6,7 @@ using System.Net.Mail;
 using Uniq.BL.Repositories;
 using Uniq.WebUI.Tools;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Uniq.WebUI.Models;
 
 namespace Uniq.WebUI.Controllers
 {
@@ -26,7 +27,7 @@ namespace Uniq.WebUI.Controllers
         [Route("/Giris-Yap"), HttpPost]
         public IActionResult Index(Customer customer)
         {
-            GeneralTool.getMD5(customer.Password);
+            customer.Password = GeneralTool.getMD5(customer.Password);
             var signCustomer = repoCustomer.GetBy(x => x.Email == customer.Email && x.Password == customer.Password);
             if (signCustomer == null)
             {
@@ -35,13 +36,14 @@ namespace Uniq.WebUI.Controllers
             }
             else
             {
-                if (signCustomer.AccountStatus==1)
+                if (signCustomer.AccountStatus == 1)
                 {
                     //giriş yapabilir
                 }
                 else
                 {
-                    //doğrulama sayfasına yönlendirilecek
+                    return RedirectToAction("VerifyAccount", "LoginAndRegister", new { email = customer.Email });
+
                 }
             }
             return View();
@@ -62,10 +64,9 @@ namespace Uniq.WebUI.Controllers
                 var checkCustomer = repoCustomer.GetBy(x => x.Email == customer.Email);
                 if (checkCustomer == null)
                 {
-                    Random rnd = new Random();
                     customer.GuidId = Guid.NewGuid();
                     customer.AccountStatus = 0;
-                    customer.VerificationCode = rnd.Next(100000, 999999);
+                    customer.VerificationCode = 0;
                     customer.Password = GeneralTool.getMD5(customer.Password);
                     await repoCustomer.Add(customer);
 
@@ -87,15 +88,17 @@ namespace Uniq.WebUI.Controllers
         }
 
         [Route("/hesabini-dogrula")]
-        public IActionResult VerifyAccount()
+        public IActionResult VerifyAccount(string email)
         {
-            return View();
+            VerifyAcc verifyAcc = new VerifyAcc { Email = email };
+            return View(verifyAcc);
         }
 
         [Route("/hesabini-dogrula"), HttpPost]
-        public IActionResult VerifyAccount(int no1, int no2, int no3, int no4, int no5, int no6)
+        public IActionResult VerifyAccount(VerifyAcc model)
         {
-            return View();
+            // veritabanındaki bilgi ile modelden gelen karşılaştırılıp eşleşiyorsa giriş yapma sayfasına yönlendirilecek ve hesabınız aktif edilmiştir başarıyla giriş yapabilrisinz olcak
+            return View(model);
         }
     }
 }
