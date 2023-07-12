@@ -3129,6 +3129,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\script.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\shoppingcart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shoppingcart.js"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\sticky-header.js",
       "PackagePath": "staticwebassets\\assets\\js\\sticky-header.js"
     },

@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="col-md-5">
-                    <div class="product-detail-box">
+                    <div class="product-detail-box" style="text-align:center;">
                         <div class="product-option">
                             <h2 style="color:white;">@Model.Product.Title</h2>
 
@@ -59,22 +59,22 @@
                                 </p>
                             </div>
 
-                            <div class="option-side">
+                            <div class="option-side" style="display: inline-block;">
                                 <div class="option">
                                     <div class="title-box4">
                                     </div>
                                     <div class="plus-minus">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                                        <input type="number" value="1" min="1" max="10">
+                                        <input type="number" class="inputQuantity" value="1" min="1" max="50">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="btn-group">
-                                <a href="javascript:void(0)" class="btn-solid btn-sm addtocart-btn">Add To Cart </a>
-                                <a href="javascript:void(0)" class="btn-outline btn-sm wishlist-btn">Add To Wishlist</a>
+                                <a href="javascript:void(0)" onclick="addCart(@Model.Product.ID)" class="btn-solid btn-sm addtocart-btn">Sepete Ekle </a>
                             </div>
+
                         </div>
                     </div>
                 </div>

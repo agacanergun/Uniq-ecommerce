@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "URaT9qC6CVQ4BytCu+beIKTIHxQLqSW1wbdl3R1XlF0=",
+  "Hash": "tmApmgwRLm1AsoUJ21suOyLPQCzYK+xE8+mAQPBvfvw=",
   "Source": "Uniq.WebUI",
   "BasePath": "_content/Uniq.WebUI",
   "Mode": "Default",
@@ -6305,6 +6305,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\shoppingcart.js",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "assets/js/shoppingcart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\shoppingcart.js"
     },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\sticky-header.js",
