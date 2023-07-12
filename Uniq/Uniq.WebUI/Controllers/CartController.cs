@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Uniq.BL.Repositories;
@@ -79,5 +80,84 @@ namespace Uniq.WebUI.Controllers
             }
             else return 0;
         }
+
+        [Route("/sepetim/sil")]
+        public string RemoveCart(int productid)
+        {
+            if (Request.Cookies["MyCart"] != null)
+            {
+                List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+                carts.Remove(carts.FirstOrDefault(x => x.ID == productid));
+                CookieOptions cookieOptions = new();
+                cookieOptions.Expires = DateTime.Now.AddDays(3);
+                Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
+                return "OK";
+            }
+            else return "";
+        }
+
+
+        [Route("sepetim/arttir")]
+        public int PlusQuantity(int productid)
+        {
+            var carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+            foreach (var item in carts)
+            {
+                if (item.ID == productid)
+                {
+                    item.Quantity++;
+                    CookieOptions cookieOptions = new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddDays(3),
+                    };
+                    Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
+                    return item.Quantity;
+                }
+            }
+            return -1;
+        }
+
+        [Route("sepetim/azalt")]
+        public int MinusQuantity(int productid)
+        {
+            var carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+            foreach (var item in carts)
+            {
+                if (item.ID == productid)
+                {
+                    item.Quantity--;
+                    if (item.Quantity == 0)
+                    {
+                        carts.Remove(item);
+                        //CookieOptions cookieOptions1 = new CookieOptions
+                        //{
+                        //    Expires = DateTime.Now.AddDays(3),
+                        //};
+                        //Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions1);
+
+                    }
+                    CookieOptions cookieOptions = new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddDays(3),
+                    };
+                    Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
+                    return item.Quantity;
+                }
+            }
+            return -1;
+        }
+
+
+        [Route("/sepetim/tamamla"), Authorize(AuthenticationSchemes = "UniqMemberAuth")]
+        public IActionResult Complete()
+        {
+            return View();
+        }
+
+        //[Route("/sepetim/tamamla"), Authorize(AuthenticationSchemes = "UniqMemberAuth"), HttpPost]
+        //public IActionResult Complete()
+        //{
+        //    return View();
+        //}
     }
 }

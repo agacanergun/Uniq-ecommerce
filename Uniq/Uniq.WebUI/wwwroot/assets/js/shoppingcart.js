@@ -27,13 +27,50 @@ function getCartCounter() {
     });
 }
 
-//function removeCart(productid) {
-//    $.ajax({
-//        url: "/sepetim/sil",
-//        type: "POST",
-//        data: { productid: productid },
-//        success: function (data) {
-//            if (data == "OK") location.href = "/sepetim";
-//        }
-//    });
-//} 
+function removeCart(productid) {
+    $.ajax({
+        url: "/sepetim/sil",
+        type: "POST",
+        data: { productid: productid },
+        success: function (data) {
+            if (data == "OK") location.href = "/sepetim";
+        }
+    });
+} 
+
+
+function minusquantity(productid) {
+    $.ajax({
+        url: "/sepetim/azalt",
+        type: "POST",
+        data: { productid: productid },
+        success: function (data) {
+            if (data != -1) {
+                getCartCounter();
+                location.href = "/sepetim";
+            }
+            else {
+                getCartCounter();
+                location.href = "/sepetim";
+            }
+        }
+    });
+}
+
+function plusquantity(productid) {
+    $.ajax({
+        url: "/sepetim/arttir",
+        type: "POST",
+        data: { productid: productid },
+        success: function (data) {
+            if (data != -1) {
+                getCartCounter();
+                location.href = "/sepetim";
+            }
+            else {
+                location.href = "/sepetim";
+                getCartCounter();
+            }
+        }
+    });
+}

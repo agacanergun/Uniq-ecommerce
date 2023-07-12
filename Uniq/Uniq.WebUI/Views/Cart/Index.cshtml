@@ -7,47 +7,57 @@
             <div class="col-md-7 col-lg-8">
                 <div class="cart-wrap">
                     <div class="items-list">
-                        <table  class="table cart-table m-md-0">
-                            <thead >
-                                <tr >
+                        <table class="table cart-table m-md-0">
+                            <thead>
+                                <tr>
                                     <th style="color:white;" class="d-none d-sm-table-cell">Ürün Resmi</th>
                                     <th style="color:white;" class="d-none d-sm-table-cell">Ürün</th>
                                     <th style="color:white;" class="d-none d-sm-table-cell">Fiyat</th>
                                     <th style="color:white;" class="d-none d-lg-table-cell">Miktar</th>
                                     <th style="color:white;" class="d-none d-xl-table-cell">Toplam</th>
+                                    <th></th>
                                 </tr>
                             </thead>
 
                             <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="product-detail">
-                                            <img style="border-radius:8px;" class="pr-img" src="/assets/images/fashion/product/front/8.jpg" alt="image">
-                                            <div class="details">
-                                                <div class="plus-minus mt-2 d-inline-flex d-lg-none">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                                                    <input type="number" value="1" min="1" max="10">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="product-detail">
+                                                <img style="border-radius:8px;" class="pr-img" src="@item.Picture" alt="image">
+                                                <div class="details">
+                                                    <div class="plus-minus mt-2 d-inline-flex d-lg-none">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                                        <input type="number" value="1" min="1" max="10">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
+                                        </td>
 
-                                    
-                                    <td style="color:white;" class="price d-none d-sm-table-cell">KALİTELİ CEKET</td>
 
-                                    <td style="color:white;" class="price d-none d-sm-table-cell">120.00 TL</td>
-                                    <td class="d-none d-lg-table-cell">
-                                        <div class="plus-minus">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                                            <input type="number" value="1" min="1" max="10">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                                        </div>
-                                    </td>
-                                    <td style="color:white;" class="total d-none d-xl-table-cell">120.00 TL</td>
-                                </tr>
+                                        <td style="color:white;" class="price d-none d-sm-table-cell">@item.Name</td>
 
-                             
+                                        <td style="color:white;" class="price d-none d-sm-table-cell"><i>@item.Price TL</i></td>
+                                        <td class="d-none d-lg-table-cell">
+                                            <div class="plus-minus">
+                                                <svg onclick="minusquantity(@item.ID)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                                <input type="number" value="@item.Quantity" min="1" max="10">
+                                                <svg onclick="plusquantity(@item.ID)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus add"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </div>
+                                        </td>
+                                        <td style="color:white;" class="total d-none d-xl-table-cell">
+                                            @{
+                                                var productTotalAmount = item.Price * item.Quantity;
+                                                <i> @productTotalAmount</i>
+                                            }<i> TL</i>
+                                        </td>
+                                        <td style="color:red;font-size:x-large;"><a style="cursor:pointer;" onclick="removeCart(@item.ID)">X</a></td>
+                                    </tr>
+                                }
+
+
                             </tbody>
                         </table>
                     </div>
@@ -62,8 +72,16 @@
                                 <h5 class="cart-title text-center">Sepet Detayları</h5>
                                 <ul class="order-summery">
                                     <li class="pb-0">
-                                        <span>Total Amount</span>
-                                        <span>$270.00</span>
+                                        <span>Toplam Tutar</span>
+                                        @{
+                                            decimal totalAmount = 0;
+                                        }
+                                        @foreach (var item in Model)
+                                        {
+                                            totalAmount += item.Price * item.Quantity;
+                                        }
+                                        <span>@totalAmount TL</span>
+
                                     </li>
                                 </ul>
                                 <div class="row g-3 mt-2">
