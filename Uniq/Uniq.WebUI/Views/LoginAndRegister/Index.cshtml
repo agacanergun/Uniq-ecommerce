@@ -28,17 +28,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-
-                @if (TempData["ModalMessage"] != null)
-                {
-                
-                                    <p>@TempData["ModalMessage"]</p>
-                
-
-
-
-            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <br />
+            <br />
+            @if (TempData["Info"] != null)
+            {
+                <hr />
+                <div class="title-box">
+                    <span class="title-divider1"><span class="squre"></span><span class="squre"></span></span>
+                    <p style="font-size:x-large;">@TempData["Info"]</p>
+                </div>
+            }
         </div>
     </section>
 </div>
