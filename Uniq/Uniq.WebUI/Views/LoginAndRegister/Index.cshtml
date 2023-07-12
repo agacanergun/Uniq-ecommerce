@@ -1,0 +1,35 @@
+﻿<div class="main">
+    <section class="page-body p-0">
+        <div class="row g-0 ratio_asos">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="content-box">
+                    <div>
+                        <h5>Giriş Yap</h5>
+
+                        <form asp-controller="LoginAndRegister" asp-action="Index" class="custom-form form-pill">
+                            <div class="input-box">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" required="" name="email" id="email">
+                            </div>
+                            <div class="input-box">
+                                <label for="password">Password</label>
+                                <div class="icon-input">
+                                    <input class="form-control" type="password" required="" name="password" id="password">
+                                    <img class="showHidePassword" src="https://themes.pixelstrap.com/oslo/assets/icons/svg/eye-1.svg" alt="eye">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-solid rounded-pill line-none theme-color">Giriş Yap <i class="arrow"></i></button>
+                        </form>
+
+                        <span class="backto-link font-default content-color text-decoration-none">
+                            Bir Hesabınız Yok mu? <a class="text-decoration-underline theme-color" asp-controller="LoginAndRegister" asp-action="Register" >Kayıt Ol </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </section>
+</div>

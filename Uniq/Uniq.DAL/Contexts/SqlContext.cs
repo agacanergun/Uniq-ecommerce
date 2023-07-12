@@ -24,6 +24,8 @@ namespace Uniq.DAL.Contexts
         public DbSet<Product> Product { get; set; }
         public DbSet<ProductCategory> ProductCategory { get; set; }
         public DbSet<ProductPicture> ProductPicture { get; set; }
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet<CustomerAdresses> CustomerAdresses { get; set; }
 
 
 
@@ -32,6 +34,7 @@ namespace Uniq.DAL.Contexts
             modelBuilder.Entity<Admin>().HasData(new Admin { ID = 1, Name = "ADIM", Surname = "SOYADIM", Password = "4c49a6720254293c040d06f1207d6796", UserName = "uniq" });
             modelBuilder.Entity<ProductCategory>().HasKey(x => new { x.ProductID, x.CategoryID });
             modelBuilder.Entity<ProductPicture>().HasOne(x => x.Product).WithMany(x => x.ProductPictures).HasForeignKey(x => x.ProductID);
+            modelBuilder.Entity<Customer>().HasMany(x => x.CustomerAdresses).WithOne(x => x.Customer).HasForeignKey(x => x.CustomerID);
         }
     }
 }
