@@ -23,6 +23,21 @@ builder.Services.AddAuthentication(options =>
     });
 
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = "UniqMemberAuth";
+    options.DefaultSignInScheme = "UniqMemberAuth";
+    options.DefaultChallengeScheme = "UniqMemberAuth";
+})
+    .AddCookie("UniqMemberAuth", opt =>
+    {
+        opt.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+        opt.LoginPath = "/Giris-Yap";
+        opt.LogoutPath = "/uye/logout";
+    });
+
+
+
 var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {

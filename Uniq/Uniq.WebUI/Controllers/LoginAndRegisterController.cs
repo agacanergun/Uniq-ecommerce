@@ -7,6 +7,8 @@ using Uniq.BL.Repositories;
 using Uniq.WebUI.Tools;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Uniq.WebUI.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace Uniq.WebUI.Controllers
 {
@@ -25,7 +27,7 @@ namespace Uniq.WebUI.Controllers
         }
 
         [Route("/Giris-Yap"), HttpPost]
-        public IActionResult Index(Customer customer)
+        public async Task<IActionResult> Index(Customer customer)
         {
             customer.Password = GeneralTool.getMD5(customer.Password);
             var signCustomer = repoCustomer.GetBy(x => x.Email == customer.Email && x.Password == customer.Password);
@@ -38,7 +40,15 @@ namespace Uniq.WebUI.Controllers
             {
                 if (signCustomer.AccountStatus == 1)
                 {
-                    //giriş yapabilir
+                    List<Claim> claims = new List<Claim> {
+
+                    new Claim(ClaimTypes.PrimarySid, signCustomer.Id.ToString()),
+                    new Claim(ClaimTypes.Name, signCustomer.Name),
+                    new Claim("UserGuid", signCustomer.GuidId.ToString()),
+                };
+                    ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "UniqMemberAuth");
+                    await HttpContext.SignInAsync("UniqMemberAuth", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties() { IsPersistent = true });
+                    return Redirect("/");
                 }
                 else
                 {
@@ -46,7 +56,7 @@ namespace Uniq.WebUI.Controllers
 
                 }
             }
-            return View();
+
         }
 
         [Route("/Kayıt-Ol")]
@@ -75,7 +85,6 @@ namespace Uniq.WebUI.Controllers
                 }
                 else
                 {
-                    //Bu Email Adresi Zaten Kayıtlı
                     ViewBag.FailRegisterEmail = "Bu Email Adresi Zaten Kayıtlı";
                     return View(customer);
                 }
