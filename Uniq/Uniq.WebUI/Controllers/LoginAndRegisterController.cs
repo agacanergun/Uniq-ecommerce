@@ -88,17 +88,36 @@ namespace Uniq.WebUI.Controllers
         }
 
         [Route("/hesabini-dogrula")]
-        public IActionResult VerifyAccount(string email)
+        public async Task<IActionResult> VerifyAccount(string email)
         {
             VerifyAcc verifyAcc = new VerifyAcc { Email = email };
+
+            var customer = repoCustomer.GetBy(x => x.Email == email);
+            Random rnd = new Random();
+            customer.VerificationCode = rnd.Next(100000, 999999);
+            await repoCustomer.Update(customer);
+            GeneralTool.SendMail(customer.Email, "Hesap Aktivasyonu", "Hesap Aktivasyon Kodunuz : " + customer.VerificationCode);
+
             return View(verifyAcc);
         }
 
         [Route("/hesabini-dogrula"), HttpPost]
-        public IActionResult VerifyAccount(VerifyAcc model)
+        public async Task<IActionResult> VerifyAccount(VerifyAcc model)
         {
-            // veritabanındaki bilgi ile modelden gelen karşılaştırılıp eşleşiyorsa giriş yapma sayfasına yönlendirilecek ve hesabınız aktif edilmiştir başarıyla giriş yapabilrisinz olcak
-            return View(model);
+            string code = model.Number1.ToString() + model.Number2.ToString() + model.Number3.ToString() + model.Number4.ToString() + model.Number5.ToString() + model.Number6.ToString();
+            var customer = repoCustomer.GetBy(x => x.Email == model.Email);
+            if (customer.VerificationCode == int.Parse(code))
+            {
+                customer.AccountStatus = 1;
+                await repoCustomer.Update(customer);
+                TempData["Info"] = "Hesabınız Doğrulandı Giriş Yapabilirsiniz.";
+                return Redirect("/Giris-Yap");
+            }
+            else
+            {
+                TempData["WrongVerify"] = "Doğrulama Kodu Yanlış";
+                return View(model);
+            }
         }
     }
 }

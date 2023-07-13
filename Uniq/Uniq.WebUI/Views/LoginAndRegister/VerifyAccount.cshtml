@@ -27,7 +27,11 @@
 
                             <button type="submit" class="btn-solid rounded-pill line-none">Giriş Yap <i class="arrow"></i></button>
                         </form>
-
+                        @if (TempData["WrongVerify"] != null)
+                        {
+                            <br />
+                            <span style="color:red;font-size:x-large;text-align:center;display:block;">@TempData["WrongVerify"]</span>
+                        }
                     </div>
                 </div>
             </div>

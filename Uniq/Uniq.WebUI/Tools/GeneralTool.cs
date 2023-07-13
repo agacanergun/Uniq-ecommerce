@@ -20,5 +20,23 @@ namespace Uniq.WebUI.Tools
         {
             return _text.ToLower().Replace(" ", "-").Replace("ş", "s").Replace("ö", "o").Replace("ü", "u").Replace("ğ", "g").Replace("ç", "c").Replace("ı", "i");
         }
+
+        public static void SendMail(string mail, string subject, string message)
+        {
+            SmtpClient smtpClient = new SmtpClient();
+            smtpClient.Host = "agacanergun.com";
+            smtpClient.Port = 587;
+            smtpClient.EnableSsl = false;
+            smtpClient.UseDefaultCredentials = false;
+            smtpClient.Credentials = new NetworkCredential("test@agacanergun.com", "A5125297a");
+            MailMessage mailMessage = new();
+            mailMessage.From = new MailAddress("test@agacanergun.com");
+            mailMessage.To.Add(mail);
+            mailMessage.Subject = subject;
+            mailMessage.Body = message;
+            mailMessage.IsBodyHtml = true;
+            mailMessage.BodyEncoding = Encoding.UTF8;
+            smtpClient.Send(mailMessage);
+        }
     }
 }
