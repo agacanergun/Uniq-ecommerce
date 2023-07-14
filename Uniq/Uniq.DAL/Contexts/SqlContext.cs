@@ -26,6 +26,7 @@ namespace Uniq.DAL.Contexts
         public DbSet<ProductPicture> ProductPicture { get; set; }
         public DbSet<Customer> Customer { get; set; }
         public DbSet<CustomerAdresses> CustomerAdresses { get; set; }
+        public DbSet<Shipping> Shipping { get; set; }
 
 
 

@@ -84,6 +84,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Shipping/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hpcHBpbmdcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Shipping/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hpcHBpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/Shipping/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hpcHBpbmdcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MONSTER/Documents/GitHub/Uniq-ecommerce/Uniq/Uniq.WebUI/Areas/admin/Views/SocialMedia/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU29jaWFsTWVkaWFcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
