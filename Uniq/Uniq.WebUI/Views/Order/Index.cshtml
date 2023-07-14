@@ -1,0 +1,134 @@
+﻿@using Uniq.WebUI.ViewModels;
+@model OrderVM
+
+<section class="checkout">
+    <div class="container-lg">
+        <div class="row g-4 g-md-3 g-xxl-5 cart">
+            <div class="col-md-7 col-lg-8 col-xl-9">
+                <div class="title-box2">
+                    <h2 style="color:white;" class="heading-2">Sipariş Oluştur</h2>
+                </div>
+                <!-- Payment Section Start -->
+                <div class="payment-section">
+                    <div class="accordion" id="accordionExample">
+                        <!-- Accordion Start -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button font-md title-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Adres Seçin <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <div class="row g-3 filter-row">
+                                        @if (Model.CustomerAdresses.Count > 0)
+                                        {
+                                            @foreach (var item in Model.CustomerAdresses)
+                                            {
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="filter-col radio-box">
+                                                        <input class="radio-input" checked="" type="radio" name="card" id="card1" value="option1">
+                                                        <label class="radio-label content-color" for="card1"><span class="font-md"> 9800 XXXX XXXX 0545 <img class="payment-card" src="../assets/icons/png/1.png" alt="card"> </span></label>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <p>Kayıtlı Adresiniz Bulunmamaktadır</p>
+                                            <a asp-controller="MemberProfile" asp-action="Index" style="width:50%;" class="btn btn-success">Adres Oluştur</a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion End -->
+                        <!-- Accordion Start -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button font-md title-color collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Kargo Seçenekleri <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body net-banking">
+                                    <div class="row">
+                                        @foreach (var item in Model.Shippings)
+                                        {
+                                            <div class="input-box radio-box col-6">
+                                                <input class="radio-input" type="radio" name="radio1" id="c-bank" value="option1" checked="">
+                                                <label class="radio-label" for="c-bank"> @item.Name </label>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion End -->
+                        <!-- Accordion Start -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button font-md title-color collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Ödeme Seçenekleri <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body cash">
+                                    <ul class="filter-row">
+                                        <li class="filter-col active">
+                                            <div class="input-box mb-0 radio-box">
+                                                <input class="radio-input" type="radio" checked="" name="cash" id="cash" value="option1">
+                                                <label class="radio-label" for="cash">
+                                                    Kapıda Ödeme
+                                                    <svg><use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/_sprite.svg#cash"></use></svg>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion End -->
+                    </div>
+                </div>
+                <!-- Payment Section End -->
+            </div>
+
+            <div class="col-md-5 col-lg-4 col-xl-3">
+                <div class="summery-wrap">
+                    <div class="cart-wrap grand-total-wrap">
+                        <div>
+                            <div class="order-summery-box">
+                                <h5 class="cart-title">Ödeme Detayları</h5>
+                                <ul class="order-summery">
+                                    <li>
+                                        <span>Toplam Tutar</span>
+                                        <span>@Model.TotalAmount TL</span>
+                                    </li>
+
+                                    <li>
+                                        <span>Kargo Ücreti Dahil Değildir</span>
+                                    </li>
+
+                                    <li class="pb-0">
+                                        <span>Toplam Tutar</span>
+                                        <span>@Model.TotalAmount TL</span>
+                                    </li>
+                                </ul>
+                                <div class="row g-3 mt-2">
+                                    <div class="col-6 col-md-12">
+                                        <a href="order-success.html" class="btn-solid checkout-btn">Sipariş Oluştur <i class="arrow"></i></a>
+                                    </div>
+                                    <div class="col-6 col-md-12">
+                                        <a href="/" class="btn-outline w-100 justify-content-center checkout-btn"> Alışverişe Devam Et </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
