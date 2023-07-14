@@ -13,31 +13,22 @@
                     <div class="accordion" id="accordionExample">
                         <!-- Accordion Start -->
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button font-md title-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Adres Seçin <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button font-md title-color collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 Adres Seçenekleri    <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-                                    <div class="row g-3 filter-row">
-                                        @if (Model.CustomerAdresses.Count > 0)
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body net-banking">
+                                    <div class="row">
+                                        @foreach (var item in Model.CustomerAdresses)
                                         {
-                                            @foreach (var item in Model.CustomerAdresses)
-                                            {
-                                                <div class="col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="filter-col radio-box">
-                                                        <input class="radio-input" checked="" type="radio" name="card" id="card1" value="option1">
-                                                        <label class="radio-label content-color" for="card1"><span class="font-md"> 9800 XXXX XXXX 0545 <img class="payment-card" src="../assets/icons/png/1.png" alt="card"> </span></label>
-                                                    </div>
-                                                </div>
-                                            }
+                                            <div class="input-box radio-box col-6">
+                                                <input class="radio-input" type="radio" name="adress" id="@item.Id-adress" value="option1">
+                                                <label class="radio-label" for="@item.Id-adress"> @item.Title - @item.Country @item.Province @item.District @item.Adress </label>
+                                            </div>
                                         }
-                                        else
-                                        {
-                                            <p>Kayıtlı Adresiniz Bulunmamaktadır</p>
-                                            <a asp-controller="MemberProfile" asp-action="Index" style="width:50%;" class="btn btn-success">Adres Oluştur</a>
-                                        }
+
                                     </div>
                                 </div>
                             </div>
@@ -56,8 +47,8 @@
                                         @foreach (var item in Model.Shippings)
                                         {
                                             <div class="input-box radio-box col-6">
-                                                <input class="radio-input" type="radio" name="radio1" id="c-bank" value="option1" checked="">
-                                                <label class="radio-label" for="c-bank"> @item.Name </label>
+                                                <input class="radio-input" type="radio" name="shipping" id="@item.ID-shipping" value="option1">
+                                                <label class="radio-label" for="@item.ID-shipping"> @item.Name </label>
                                             </div>
                                         }
 

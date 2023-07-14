@@ -28,7 +28,7 @@ namespace Uniq.DAL.Entities
         [StringLength(20), Column(TypeName = "varchar(20)"), Required(), Display(Name = "İlçe")]
         public string District { get; set; }
 
-        [StringLength(100), Column(TypeName = "varchar(100)"), Required(), Display(Name = "Adres Bilgisi")]
+        [StringLength(100), Column(TypeName = "varchar(100)"), Required(), Display(Name = "Açık Adres Bilgisi")]
         public string Adress { get; set; }
     }
 }

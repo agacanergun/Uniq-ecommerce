@@ -1,4 +1,7 @@
-﻿<main class="main">
+﻿@using Uniq.WebUI.ViewModels;
+@model MemberProfileVM
+
+<main class="main">
 
     <!-- Dashboard Start -->
     <section class="user-dashboard">
@@ -89,9 +92,9 @@
 
                                 <div class="order-wraper">
                                     <div class="order-box">
-                                     
+
                                         <div class="order-info">
-                                            <div class="product-details" >
+                                            <div class="product-details">
                                                 <div class="img-box"><img src="../assets/images/fashion/product/front/4.jpg" alt="product"></div>
                                                 <div class="product-content">
                                                     <h5>Women’s long sleeve Jacket</h5>
@@ -328,7 +331,7 @@
                                     <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#addNewAddress">
                                             <span class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
-                                            <h4 class="theme-color font-xl fw-500">Add New Address</h4>
+                                            <h4 class="theme-color font-xl fw-500">Yeni Adres Ekle</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -403,102 +406,60 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="addNewAddressLabel">Add New Address</h5>
+                <h5 class="modal-title" id="addNewAddressLabel">Yeni Bir Adres Oluştur</h5>
                 <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
             </div>
 
             <div class="modal-body full-grid-mobile">
-                <form action="javascript:void(0)" class="custom-form form-pill">
+                <form method="post" asp-controller="MemberProfile" asp-action="AddAdress" class="custom-form form-pill">
                     <div class="row g-3 g-md-4">
                         <div class="col-12">
                             <div class="input-box">
-                                <label for="name">Full Name</label>
-                                <input class="form-control" type="text" required name="name" id="name" />
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="input-box">
-                                <label for="email2">Email</label>
-                                <input class="form-control" type="email" required name="email" id="email2" />
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="input-box">
-                                <label for="mobile2">Mobile No:</label>
-                                <input maxlength="9" class="form-control" type="number" required name="mobile2" id="mobile2" />
+                                <label asp-for="@Model.CustomerAdresses.Title" for="name"></label>
+                                <input asp-for="@Model.CustomerAdresses.Title" placeholder="Dükkan , Ev , Yazlık" class="form-control" type="text" required  id="name" />
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="input-box">
-                                <label for="address3">Address1</label>
-                                <input class="form-control" type="text" required name="address3" id="address3" />
+                                <label asp-for="@Model.CustomerAdresses.Country" for="name"></label>
+                                <input asp-for="@Model.CustomerAdresses.Country" class="form-control" type="text" required  id="name" />
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="input-box">
-                                <label for="address4">Address2</label>
-                                <input class="form-control" type="text" required name="address4" id="address4" />
+                                <label asp-for="@Model.CustomerAdresses.Province" for="name"></label>
+                                <input asp-for="@Model.CustomerAdresses.Province" class="form-control" type="text" required  id="name" />
                             </div>
                         </div>
 
-                        <div class="col-6 col-sm-4">
+                        <div class="col-12">
                             <div class="input-box">
-                                <label for="country">Country</label>
-                                <select class="form-select form-control" id="country">
-                                    <option selected disabled value="">Choose...</option>
-                                    <option>United States</option>
-                                    <option>India</option>
-                                    <option>America</option>
-                                    <option>South America</option>
-                                    <option>Dubai</option>
-                                    <option>Hong Kong</option>
-                                    <option>Indonesia</option>
-                                    <option>Pakistan</option>
-                                    <option>Saudi Arabia</option>
-                                    <option>China</option>
-                                </select>
+                                <label asp-for="@Model.CustomerAdresses.District" for="name"></label>
+                                <input asp-for="@Model.CustomerAdresses.District" class="form-control" type="text" required id="name" />
                             </div>
                         </div>
 
-                        <div class="col-6 col-sm-4">
+                        <div class="col-12">
                             <div class="input-box">
-                                <label for="city2">City</label>
-                                <select class="form-select form-control" id="city2">
-                                    <option selected disabled value="">Choose...</option>
-                                    <option>Almaty</option>
-                                    <option>India</option>
-                                    <option>America</option>
-                                    <option>South America</option>
-                                    <option>Dubai</option>
-                                    <option>Hong Kong</option>
-                                    <option>Indonesia</option>
-                                    <option>Pakistan</option>
-                                    <option>Saudi Arabia</option>
-                                    <option>China</option>
-                                </select>
+                                <label asp-for="@Model.CustomerAdresses.Adress" for="name"></label>
+                                <input asp-for="@Model.CustomerAdresses.Adress" class="form-control" type="text" required id="name" />
                             </div>
                         </div>
 
-                        <div class="col-sm-4">
-                            <div class="input-box">
-                                <label for="zip">Zip Code</label>
-                                <input maxlength="4" class="form-control" type="number" required name="zip" id="zip" />
-                            </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-box">
+                            <button type="button" class="btn btn-outline rounded-pill" data-bs-dismiss="modal" aria-label="Close">Kapat</button>
+                            <button type="submit" class="btn btn-solid line-none rounded-pill">Ekle <i class="arrow"></i></button>
                         </div>
                     </div>
                 </form>
             </div>
 
-            <div class="modal-footer">
-                <div class="btn-box">
-                    <button type="button" class="btn btn-outline rounded-pill" data-bs-dismiss="modal" aria-label="Close">Close</button>
-                    <button type="button" class="btn btn-solid line-none rounded-pill">Add Address <i class="arrow"></i></button>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
