@@ -16,6 +16,9 @@ namespace Uniq.DAL.Entities
         public int CustomerID { get; set; }
         public Customer Customer { get; set; }
 
+        [StringLength(25), Column(TypeName = "varchar(25)"), Required(), Display(Name = "Adres Notu")]
+        public string Title { get; set; }
+
         [StringLength(20), Column(TypeName = "varchar(20)"), Required(), Display(Name = "Ülke")]
         public string Country { get; set; }
 
