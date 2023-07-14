@@ -45,7 +45,7 @@ namespace Uniq.WebUI.Controllers
                     new Claim(ClaimTypes.PrimarySid, signCustomer.Id.ToString()),
                     new Claim(ClaimTypes.Name, signCustomer.Name),
                     new Claim("UserGuid", signCustomer.GuidId.ToString()),
-                };
+                     };
                     ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "UniqMemberAuth");
                     await HttpContext.SignInAsync("UniqMemberAuth", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties() { IsPersistent = true });
                     return Redirect("/");
