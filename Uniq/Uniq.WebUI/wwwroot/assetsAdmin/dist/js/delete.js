@@ -69,7 +69,7 @@ function deleteItemCategory(id) {
 
 
 
-//KATEGORİ DELETE JS
+//comunication DELETE JS
 function confirmDeleteCommunication(id) {
     swal({
         title: "Silmek İstediğine Emin misin?",
@@ -125,7 +125,7 @@ function deleteItemCommunication(id) {
         }
     });
 }
-//KATEGORİ DELETE JS
+//comunication DELETE JS
 
 
 

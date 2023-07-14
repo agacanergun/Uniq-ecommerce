@@ -3141,6 +3141,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\sticky-header.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\swiper-slider\\delete.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-slider\\delete.js"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assets\\js\\swiper-slider\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\swiper-slider\\swiper-bundle.min.js"
     },

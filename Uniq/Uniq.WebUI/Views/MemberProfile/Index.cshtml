@@ -13,8 +13,8 @@
                         <span class="back-side d-lg-none"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span>
                         <div class="profile-box">
                             <div class="user-name">
-                                <h5>Josephin water</h5>
-                                <h6>Josephin.water@gmail.com</h6>
+                                <h5>@Model.Customer.Name @Model.Customer.Surname</h5>
+                                <h6>@Model.Customer.Email</h6>
                             </div>
                         </div>
 
@@ -261,72 +261,27 @@
                                 </div>
 
                                 <div class="row g-3 g-md-4">
-                                    <div class="col-md-6 col-lg-12 col-xl-6">
-                                        <div class="address-box checked">
-                                            <div class="radio-box">
-                                                <div>
-                                                    <input class="radio-input" type="radio" checked="" id="radio1" name="radio1">
-                                                    <label class="radio-label" for="radio1">Abigail</label>
+                                    @foreach (var item in Model.CustomerAdressesList)
+                                    {
+                                        <div class="col-md-6 col-lg-12 col-xl-6">
+                                            <div class="address-box checked">
+                                                <div class="radio-box">
+                                                    <div class="option-wrap">
+                                                        <a onclick="confirmDeleteAdress(@item.Id)"><span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></span></a>
+                                                    </div>
                                                 </div>
-                                                <span class="badges badges-pill badges-theme">Home</span>
-                                                <div class="option-wrap">
-                                                    <span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></span>
+                                                <div class="address-detail">
+                                                    <h4>@item.Title</h4>
+                                                    <p class="content-color font-default">@item.Country</p>
+                                                    <p class="content-color font-default">@item.Province</p>
+                                                    <p class="content-color font-default">@item.District</p>
+                                                    <p class="content-color font-default">@item.Adress</p>
+
                                                 </div>
-                                            </div>
-                                            <div class="address-detail">
-                                                <p class="content-color font-default">3385 Happy Hollow Road Wilmington, NC 28412</p>
-                                                <p class="content-color font-default">United State,325014</p>
-                                                <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500"> 423-772-0570</span></span>
-                                                <span class="content-color font-default mt-1">Delivery: <span class="title-color font-default fw-500"> 2 March</span></span>
-                                                <span class="content-color font-default mt-1">Cash on Delivery: <span class="title-color font-default fw-500"> Available</span></span>
                                             </div>
                                         </div>
-                                    </div>
+                                    }
 
-                                    <div class="col-md-6 col-lg-12 col-xl-6">
-                                        <div class="address-box">
-                                            <div class="radio-box">
-                                                <div>
-                                                    <input class="radio-input" type="radio" id="radio3" name="radio1">
-                                                    <label class="radio-label" for="radio3">Freddy J. Burns</label>
-                                                </div>
-                                                <span class="badges badges-pill badges-theme">Home</span>
-                                                <div class="option-wrap">
-                                                    <span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></span>
-                                                </div>
-                                            </div>
-                                            <div class="address-detail">
-                                                <p class="content-color font-default">198 Terry Lane Orlando, FL 32809</p>
-                                                <p class="content-color font-default">Germany,254685</p>
-                                                <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500"> 353-582-5870</span></span>
-
-                                                <span class="content-color font-default mt-1">Delivery: <span class="title-color font-default fw-500"> 4 March</span></span>
-                                                <span class="content-color font-default mt-1">Cash on Delivery: <span class="title-color font-default fw-500"> Available</span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-12 col-xl-6">
-                                        <div class="address-box">
-                                            <div class="radio-box">
-                                                <div>
-                                                    <input class="radio-input" type="radio" id="radio2" name="radio1">
-                                                    <label class="radio-label" for="radio2">Nadine Vogt</label>
-                                                </div>
-                                                <span class="badges badges-pill badges-theme">Office</span>
-                                                <div class="option-wrap">
-                                                    <span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></span>
-                                                </div>
-                                            </div>
-                                            <div class="address-detail">
-                                                <p class="content-color font-default">Wachaustrasse 22 8045 WEINITZEN</p>
-                                                <p class="content-color font-default">Austria,35546</p>
-                                                <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500"> 454-254-3654</span></span>
-                                                <span class="content-color font-default mt-1">Delivery: <span class="title-color font-default fw-500"> 5 March</span></span>
-                                                <span class="content-color font-default mt-1">Cash on Delivery: <span class="title-color font-default fw-500">Not Available</span></span>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#addNewAddress">
@@ -338,6 +293,7 @@
                             </div>
                         </div>
                         <!-- Saved Address Tabs End -->
+                  
                         <!-- Profile Tabs Start -->
                         <div class="tab-pane active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="profile">
@@ -345,39 +301,43 @@
                                     <h3>Profil Bilgileri</h3>
                                 </div>
 
-                                <form action="javascript:void(0)" class="custom-form form-pill">
+                                <form asp-controller="MemberProfile" asp-action="UpdateCustomer" class="custom-form form-pill">
+                                    <input type="hidden" asp-for="@Model.Customer.Id" />
+                                    <input type="hidden" asp-for="@Model.Customer.GuidId" />
                                     <div class="row g-3 g-xl-4">
                                         <div class="col-sm-6">
                                             <div class="input-box">
                                                 <label for="fullname">İsim</label>
-                                                <input class="form-control" id="fullname" name="fullname" type="text" value="Josephin water">
+                                                <input class="form-control" required id="fullname" asp-for="@Model.Customer.Name" type="text" value="@Model.Customer.Name">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="input-box">
                                                 <label for="fullname">Soyisim</label>
-                                                <input class="form-control" id="fullname" name="fullname" type="text" value="Josephin water">
+                                                <input class="form-control" required id="fullname" asp-for="@Model.Customer.Surname" type="text" value="@Model.Customer.Surname">
                                             </div>
                                         </div>
 
                                         <div class="col-sm-6">
                                             <div class="input-box">
                                                 <label for="email">Email</label>
-                                                <input readonly class="form-control" id="email" name="email" type="email" value="Josephin.water@gmail.com">
+                                                <input readonly class="form-control" id="email" asp-for="@Model.Customer.Email" type="email" value="@Model.Customer.Email">
                                             </div>
                                         </div>
 
                                         <div class="col-sm-6">
                                             <div class="input-box">
                                                 <label for="mobile">Telefon</label>
-                                                <input maxlength="10" class="form-control" id="mobile" name="mobile" type="number" value="9645823465">
+                                                <input class="form-control" required id="mobile" asp-for="@Model.Customer.PhoneNo" type="text" value="@Model.Customer.PhoneNo">
                                             </div>
                                         </div>
-
+                                        @{
+                                            Model.Customer.Password = "";
+                                        }
                                         <div class="col-sm-12">
                                             <div class="input-box">
-                                                <label for="password">Şifre</label>
-                                                <input class="form-control" id="password" name="password" type="password" value="9645823465">
+                                                <label for="password">Yeni Şifre</label>
+                                                <input class="form-control" placeholder="Boş Bırakırsanız Eski Şifreniz İle Devam Edebilirsiniz" id="password" asp-for="@Model.Customer.Password" type="text">
                                             </div>
                                         </div>
 
@@ -391,6 +351,17 @@
                             </div>
                         </div>
                         <!-- Profile Tabs End -->
+                        @if (TempData["Info"] != null)
+                        {
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div class="title-box">
+                                <span class="title-divider1"><span class="squre"></span><span class="squre"></span></span>
+                                <p style="font-size:x-large;">@TempData["Info"]</p>
+                            </div>
+                        }
 
                     </div>
                 </div>
@@ -416,21 +387,21 @@
                         <div class="col-12">
                             <div class="input-box">
                                 <label asp-for="@Model.CustomerAdresses.Title" for="name"></label>
-                                <input asp-for="@Model.CustomerAdresses.Title" placeholder="Dükkan , Ev , Yazlık" class="form-control" type="text" required  id="name" />
+                                <input asp-for="@Model.CustomerAdresses.Title" placeholder="Dükkan , Ev , Yazlık" class="form-control" type="text" required id="name" />
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="input-box">
                                 <label asp-for="@Model.CustomerAdresses.Country" for="name"></label>
-                                <input asp-for="@Model.CustomerAdresses.Country" class="form-control" type="text" required  id="name" />
+                                <input asp-for="@Model.CustomerAdresses.Country" class="form-control" type="text" required id="name" />
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="input-box">
                                 <label asp-for="@Model.CustomerAdresses.Province" for="name"></label>
-                                <input asp-for="@Model.CustomerAdresses.Province" class="form-control" type="text" required  id="name" />
+                                <input asp-for="@Model.CustomerAdresses.Province" class="form-control" type="text" required id="name" />
                             </div>
                         </div>
 
@@ -464,127 +435,3 @@
     </div>
 </div>
 <!-- Add New Address Modal End -->
-<!-- Edit Address Modal Start -->
-<div class="modal fade addnew-address" id="edditAddress" tabindex="-1" aria-labelledby="edditAddressLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="edditAddressLabel">Edit Address</h5>
-                <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
-            </div>
-
-            <div class="modal-body full-grid-mobile">
-                <form action="javascript:void(0)" class="custom-form form-pill">
-                    <div class="row g-3 g-md-4">
-                        <div class="col-12">
-                            <div class="input-box">
-                                <label for="name2">Full Name</label>
-                                <input class="form-control" type="text" value="Nadine Vogt" required name="name2" id="name2" />
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="input-box">
-                                <label for="email3">Email</label>
-                                <input class="form-control" type="email" value="nadinevogt@roze.come" required name="email3" id="email3" />
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="input-box">
-                                <label for="mobile3">Mobile No:</label>
-                                <input maxlength="9" class="form-control" type="number" value="4237720570" required name="mobile3" id="mobile3" />
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="input-box">
-                                <label for="address5">Address1</label>
-                                <input class="form-control" type="text" value="385 Happy Hollow Road" required name="address5" id="address5" />
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="input-box">
-                                <label for="address6">Address2</label>
-                                <input class="form-control" type="text" value="Wilmington, NC 28412" required name="address6" id="address6" />
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-sm-4">
-                            <div class="input-box">
-                                <label for="country2">Country</label>
-                                <select class="form-select form-control" id="country2">
-                                    <option selected disabled value="">United State</option>
-                                    <option>United States</option>
-                                    <option>India</option>
-                                    <option>America</option>
-                                    <option>South America</option>
-                                    <option>Dubai</option>
-                                    <option>Hong Kong</option>
-                                    <option>Indonesia</option>
-                                    <option>Pakistan</option>
-                                    <option>Saudi Arabia</option>
-                                    <option>China</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-sm-4">
-                            <div class="input-box">
-                                <label for="city">City</label>
-                                <select class="form-select form-control" id="city">
-                                    <option selected disabled value="">Los Angeles</option>
-                                    <option>Almaty</option>
-                                    <option>India</option>
-                                    <option>America</option>
-                                    <option>South America</option>
-                                    <option>Dubai</option>
-                                    <option>Hong Kong</option>
-                                    <option>Indonesia</option>
-                                    <option>Pakistan</option>
-                                    <option>Saudi Arabia</option>
-                                    <option>China</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div class="input-box">
-                                <label for="zip2">Zip Code</label>
-                                <input maxlength="4" class="form-control" type="number" value="3252" required name="zip2" id="zip2" />
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="modal-footer">
-                <div class="btn-box">
-                    <button type="button" class="btn btn-outline rounded-pill" data-bs-dismiss="modal" aria-label="Close">Close</button>
-                    <button type="button" class="btn btn-solid line-none rounded-pill">Edit Address <i class="arrow"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Edit Address Modal End -->
-<!-- Action Conformation Start -->
-<div class="modal fade action-conform" id="conformation" tabindex="-1" aria-labelledby="conformationLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="conformationLabel">Are You Sure ?</h5>
-                <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
-            </div>
-            <div class="modal-body">
-                <p class="font-md">The permission for the use/group, preview is inherited from the object, object will create a new permission for this object</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline btn-sm" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-solid btn-sm line-none" data-bs-dismiss="modal">Remove <i class="arrow"></i></button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Action Conformation End -->
