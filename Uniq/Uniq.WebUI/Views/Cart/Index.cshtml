@@ -19,7 +19,7 @@
                                 </tr>
                             </thead>
 
-                            <tbody>
+                            <tbody style="border-top: 1px solid #ddd !important;">
                                 @foreach (var item in Model)
                                 {
                                     <tr>
@@ -37,9 +37,9 @@
                                         </td>
 
 
-                                        <td style="color:white;" class="price d-none d-sm-table-cell">@item.Name</td>
+                                        <td style="color:white;" class="price d-sm-table-cell">@item.Name</td>
 
-                                        <td style="color:white;" class="price d-none d-sm-table-cell"><i>@item.Price TL</i></td>
+                                        <td style="color:white;" class="price d-sm-table-cell"><i>@item.Price TL</i></td>
                                         <td class="d-none d-lg-table-cell">
                                             <div class="plus-minus">
                                                 <svg onclick="minusquantity(@item.ID)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus sub"><line x1="5" y1="12" x2="19" y2="12"></line></svg>

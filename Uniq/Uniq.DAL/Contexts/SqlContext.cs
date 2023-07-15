@@ -27,6 +27,8 @@ namespace Uniq.DAL.Contexts
         public DbSet<Customer> Customer { get; set; }
         public DbSet<CustomerAdresses> CustomerAdresses { get; set; }
         public DbSet<Shipping> Shipping { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<SoldProduct> SoldProduct { get; set; }
 
 
 
@@ -36,6 +38,10 @@ namespace Uniq.DAL.Contexts
             modelBuilder.Entity<ProductCategory>().HasKey(x => new { x.ProductID, x.CategoryID });
             modelBuilder.Entity<ProductPicture>().HasOne(x => x.Product).WithMany(x => x.ProductPictures).HasForeignKey(x => x.ProductID);
             modelBuilder.Entity<Customer>().HasMany(x => x.CustomerAdresses).WithOne(x => x.Customer).HasForeignKey(x => x.CustomerID);
+
+            modelBuilder.Entity<Order>().HasIndex(x => x.OrderNumber).IsUnique().HasDatabaseName("OrderNumberUnique");
+
+            modelBuilder.Entity<Order>().HasMany(x => x.SoldProducts).WithOne(x => x.Order).HasForeignKey(x=>x.OrderId);
         }
     }
 }
