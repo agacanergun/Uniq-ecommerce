@@ -21,6 +21,12 @@ namespace Uniq.BL.Repositories
             await db.SaveChangesAsync();
         }
 
+        public async Task AddRange(IEnumerable<T> entities)
+        {
+            await db.AddRangeAsync(entities);
+            await db.SaveChangesAsync();
+        }
+
         public async Task Delete(T entity)
         {
             db.Remove(entity);

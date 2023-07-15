@@ -7,5 +7,8 @@ namespace Uniq.WebUI.ViewModels
         public decimal TotalAmount { get; set; }
         public List<Shipping> Shippings { get; set; }
         public List<CustomerAdresses> CustomerAdresses { get; set; }
+
+        public Order Order { get; set; }
+
     }
 }

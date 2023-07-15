@@ -17,5 +17,6 @@ namespace Uniq.BL.Repositories
         public Task Update(T entity, params Expression<Func<T, object>>[] expressions);
         public Task Delete(T entity);
         public Task DeleteRange(IEnumerable<T> entities);
+        public Task AddRange(IEnumerable<T> entities);
     }
 }

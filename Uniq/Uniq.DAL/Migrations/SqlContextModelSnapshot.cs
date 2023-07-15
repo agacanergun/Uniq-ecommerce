@@ -261,6 +261,9 @@ namespace Uniq.DAL.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("varchar(30)");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CustomerAdressesId");
@@ -438,6 +441,9 @@ namespace Uniq.DAL.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<string>("ShortDescription")

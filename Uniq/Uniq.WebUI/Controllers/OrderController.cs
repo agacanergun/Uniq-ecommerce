@@ -15,12 +15,19 @@ namespace Uniq.WebUI.Controllers
         IRepository<Shipping> repoShipping;
         IRepository<CustomerAdresses> repoCustomerAdresses;
         IRepository<Customer> repoCustomer;
-        public OrderController(IRepository<Shipping> repoShipping, IRepository<CustomerAdresses> repoCustomerAdresses, IRepository<Customer> repoCustomer)
+        IRepository<Order> repoOrder;
+        IRepository<SoldProduct> repoSoldProduct;
+        IRepository<Product> repoProduct;
+        public OrderController(IRepository<Shipping> repoShipping, IRepository<CustomerAdresses> repoCustomerAdresses, IRepository<Customer> repoCustomer, IRepository<Order> repoOrder, IRepository<SoldProduct> repoSoldProduct, IRepository<Product> repoProduct)
         {
             this.repoShipping = repoShipping;
             this.repoCustomerAdresses = repoCustomerAdresses;
             this.repoCustomer = repoCustomer;
+            this.repoOrder = repoOrder;
+            this.repoSoldProduct = repoSoldProduct;
+            this.repoProduct = repoProduct;
         }
+        [Route("siparis-olustur")]
         public IActionResult Index()
         {
             var userId = int.Parse(HttpContext.User.FindFirst(ClaimTypes.PrimarySid)?.Value);
@@ -48,6 +55,44 @@ namespace Uniq.WebUI.Controllers
             }
             else
                 return Redirect("/");
+        }
+
+        public async Task<IActionResult> Complete(OrderVM vm)
+        {
+
+            var userId = int.Parse(HttpContext.User.FindFirst(ClaimTypes.PrimarySid)?.Value);
+            var customer = repoCustomer.GetBy(x => x.Id == userId);
+
+            if (customer != null)
+            {
+                if (customer.GuidId.ToString() == HttpContext.User.FindFirst(c => c.Type == "UserGuid")?.Value)
+                {
+                    vm.Order.CustomerId = userId;
+                    vm.Order.OrderNumber = Guid.NewGuid().ToString();
+                    vm.Order.OrderStatus = "Sipariş Alındı";
+                    vm.Order.Status = 1;
+                    await repoOrder.Add(vm.Order);
+
+                    List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+                    List<SoldProduct> soldProducts = new List<SoldProduct>();
+
+                    foreach (var item in carts)
+                    {
+                        var product = repoProduct.GetBy(x => x.ID == item.ID);
+                        SoldProduct soldProduct = new SoldProduct
+                        {
+                            OrderId = vm.Order.Id,
+                            Title = product.Title,
+                            ShortDescription = product.ShortDescription,
+                            DiscountedPrice = product.DiscountedPrice * item.Quantity,
+                            Quantity = item.Quantity,
+                        };
+                        soldProducts.Add(soldProduct);
+                    }
+                    await repoSoldProduct.AddRange(soldProducts);
+                }
+            }
+            return View();
         }
     }
 }

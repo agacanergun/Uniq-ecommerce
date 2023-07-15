@@ -29,5 +29,7 @@ namespace Uniq.DAL.Entities
         public string ShippingType { get; set; }
 
         public ICollection<SoldProduct> SoldProducts { get; set; }
+
+        public int Status { get; set; }
     }
 }

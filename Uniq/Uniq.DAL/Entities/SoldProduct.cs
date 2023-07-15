@@ -24,6 +24,8 @@ namespace Uniq.DAL.Entities
         [Column(TypeName = "decimal(18,2)"), Required(), Display(Name = "İndirimli Fiyatı")]
         public decimal DiscountedPrice { get; set; }
 
+        public int Quantity { get; set; }
+
         [Display(Name = "Ürün Resimleri")]
         public ICollection<ProductPicture> ProductPictures { get; set; }
     }
