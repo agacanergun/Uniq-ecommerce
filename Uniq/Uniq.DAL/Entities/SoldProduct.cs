@@ -15,6 +15,9 @@ namespace Uniq.DAL.Entities
         public int OrderId { get; set; }
         public Order Order { get; set; }
 
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+
         [StringLength(50), Column(TypeName = "varchar(30)"), Required(), Display(Name = "Ürünün Başlığı")]
         public string Title { get; set; }
 

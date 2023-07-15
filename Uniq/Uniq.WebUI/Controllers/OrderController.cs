@@ -59,6 +59,18 @@ namespace Uniq.WebUI.Controllers
 
         public async Task<IActionResult> Complete(OrderVM vm)
         {
+            if (vm.Order==null)
+            {
+                return Redirect("/siparis-olustur");
+            }
+            else
+            {
+                if (vm.Order.CustomerAddressId == 0 || vm.Order.ShippingType == null)
+                {
+                    return Redirect("/siparis-olustur");
+                }
+            }
+      
 
             var userId = int.Parse(HttpContext.User.FindFirst(ClaimTypes.PrimarySid)?.Value);
             var customer = repoCustomer.GetBy(x => x.Id == userId);
@@ -86,6 +98,7 @@ namespace Uniq.WebUI.Controllers
                             ShortDescription = product.ShortDescription,
                             DiscountedPrice = product.DiscountedPrice * item.Quantity,
                             Quantity = item.Quantity,
+                            ProductId = item.ID,
                         };
                         soldProducts.Add(soldProduct);
                     }
