@@ -1525,6 +1525,10 @@
       "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\jplayer\\jplayer.js"
     },
     {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\ordestatus.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\ordestatus.js"
+    },
+    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\assetsAdmin\\dist\\js\\productDetail.js",
       "PackagePath": "staticwebassets\\assetsAdmin\\dist\\js\\productDetail.js"
     },
@@ -5031,6 +5035,14 @@
     {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\productPicture\\800sipsi.jpg",
       "PackagePath": "staticwebassets\\productPicture\\800sipsi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\test\\1.png",
+      "PackagePath": "staticwebassets\\test\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\test\\2.png",
+      "PackagePath": "staticwebassets\\test\\2.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Uniq.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",

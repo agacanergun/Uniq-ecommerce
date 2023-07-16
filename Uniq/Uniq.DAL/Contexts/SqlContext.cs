@@ -29,6 +29,8 @@ namespace Uniq.DAL.Contexts
         public DbSet<Shipping> Shipping { get; set; }
         public DbSet<Order> Order { get; set; }
         public DbSet<SoldProduct> SoldProduct { get; set; }
+        public DbSet<SmallSlider> SmallSlider { get; set; }
+        public DbSet<Slider> Slider { get; set; }
 
 
 

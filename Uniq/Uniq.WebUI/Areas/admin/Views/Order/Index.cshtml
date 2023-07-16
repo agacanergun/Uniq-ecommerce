@@ -51,34 +51,23 @@
                                         <!-- start row -->
                                         <tr>
                                             <td>
-                                                <select  style="width:auto;" class="form-control form-select" tabindex="1">
-                                                    @if (item.OrderStatus == "Sipariş Alındı")
+                                                <select id="orderStatus_@item.Id" style="width:auto;" class="form-control form-select" tabindex="1">
+                                                    <option>@item.OrderStatus</option>
+                                                    @if (item.OrderStatus != "Sipariş Alındı")
                                                     {
-                                                        <option value="Sipariş Alındı" selected>Sipariş Alındı</option>
-                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
-                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
-                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                        <option>Sipariş Alındı</option>
                                                     }
-                                                    @if (item.OrderStatus == "Sipariş Hazırlanıyor")
+                                                    @if (item.OrderStatus != "Sipariş Hazırlanıyor")
                                                     {
-                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
-                                                        <option value="Sipariş Hazırlanıyor" selected>Sipariş Hazırlanıyor</option>
-                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
-                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                        <option>Sipariş Hazırlanıyor</option>
                                                     }
-                                                    @if (item.OrderStatus == "Kargoya Verildi")
+                                                    @if (item.OrderStatus != "Kargoya Verildi")
                                                     {
-                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
-                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
-                                                        <option value="Kargoya Verildi" selected>Kargoya Verildi</option>
-                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                        <option>Kargoya Verildi</option>
                                                     }
-                                                    @if (item.OrderStatus == "Sipariş Tamamlandı")
+                                                    @if (item.OrderStatus != "Sipariş Tamamlandı")
                                                     {
-                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
-                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
-                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
-                                                        <option value="Sipariş Tamamlandı" selected>Sipariş Tamamlandı</option>
+                                                        <option>Sipariş Tamamlandı</option>
                                                     }
                                                 </select>
                                             </td>
@@ -107,7 +96,7 @@
                                 <tfoot>
                                     <!-- start row -->
                                     <tr>
-                                        <th>Sipariş Durumu</th>
+                                        <th></th>
                                         <th>Adres</th>
                                         <th>Müşteri Adı Soyadı</th>
                                         <th>Müşteri Telefon No</th>
@@ -131,3 +120,7 @@
 
     </div>
 </div>
+
+
+<script src="/assetsadmin/dist/js/ordestatus.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
