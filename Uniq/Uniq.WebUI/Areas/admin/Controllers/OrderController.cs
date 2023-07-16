@@ -29,7 +29,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         }
 
         [Route("admin/Siparis-Durumu-Duzenle")]
-        public IActionResult EditOrder(int id)
+        public IActionResult EditOrder(int itemId, string orderStatus)
         {
             return View();
         }

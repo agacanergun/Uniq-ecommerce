@@ -50,7 +50,38 @@
                                     {
                                         <!-- start row -->
                                         <tr>
-                                            <td>@item.OrderStatus</td>
+                                            <td>
+                                                <select  style="width:auto;" class="form-control form-select" tabindex="1">
+                                                    @if (item.OrderStatus == "Sipariş Alındı")
+                                                    {
+                                                        <option value="Sipariş Alındı" selected>Sipariş Alındı</option>
+                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
+                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
+                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                    }
+                                                    @if (item.OrderStatus == "Sipariş Hazırlanıyor")
+                                                    {
+                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
+                                                        <option value="Sipariş Hazırlanıyor" selected>Sipariş Hazırlanıyor</option>
+                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
+                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                    }
+                                                    @if (item.OrderStatus == "Kargoya Verildi")
+                                                    {
+                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
+                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
+                                                        <option value="Kargoya Verildi" selected>Kargoya Verildi</option>
+                                                        <option value="Sipariş Tamamlandı">Sipariş Tamamlandı</option>
+                                                    }
+                                                    @if (item.OrderStatus == "Sipariş Tamamlandı")
+                                                    {
+                                                        <option value="Sipariş Alındı">Sipariş Alındı</option>
+                                                        <option value="Sipariş Hazırlanıyor">Sipariş Hazırlanıyor</option>
+                                                        <option value="Kargoya Verildi">Kargoya Verildi</option>
+                                                        <option value="Sipariş Tamamlandı" selected>Sipariş Tamamlandı</option>
+                                                    }
+                                                </select>
+                                            </td>
                                             <td>@item.CustomerAdresses.Country @item.CustomerAdresses.Province @item.CustomerAdresses.District @item.CustomerAdresses.Adress </td>
                                             <td>@item.Customer.Name @item.Customer.Surname</td>
                                             <td>@item.Customer.PhoneNo</td>
