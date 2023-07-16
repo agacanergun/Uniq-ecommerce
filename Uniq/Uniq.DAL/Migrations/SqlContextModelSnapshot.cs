@@ -240,14 +240,14 @@ namespace Uniq.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CustomerAddressId")
-                        .HasColumnType("int");
-
                     b.Property<int?>("CustomerAdressesId")
                         .HasColumnType("int");
 
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("OrderDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("OrderNumber")
                         .HasMaxLength(50)
@@ -483,7 +483,8 @@ namespace Uniq.DAL.Migrations
                 {
                     b.HasOne("Uniq.DAL.Entities.CustomerAdresses", "CustomerAdresses")
                         .WithMany()
-                        .HasForeignKey("CustomerAdressesId");
+                        .HasForeignKey("CustomerAdressesId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.HasOne("Uniq.DAL.Entities.Customer", "Customer")
                         .WithMany()

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
 using System.Security.Claims;
 using Uniq.BL.Repositories;
 using Uniq.DAL.Entities;
@@ -13,10 +15,14 @@ namespace Uniq.WebUI.Controllers
     {
         IRepository<Customer> repoCustomer;
         IRepository<CustomerAdresses> repoCustomerAdresses;
-        public MemberProfileController(IRepository<Customer> repoCustomer, IRepository<CustomerAdresses> repoCustomerAdresses)
+        IRepository<Order> repoOrder;
+        IRepository<SoldProduct> repoSoldProduct;
+        public MemberProfileController(IRepository<Customer> repoCustomer, IRepository<CustomerAdresses> repoCustomerAdresses, IRepository<Order> repoOrder, IRepository<SoldProduct> repoSoldProduct)
         {
             this.repoCustomer = repoCustomer;
             this.repoCustomerAdresses = repoCustomerAdresses;
+            this.repoOrder = repoOrder;
+            this.repoSoldProduct = repoSoldProduct;
 
         }
 
@@ -29,10 +35,13 @@ namespace Uniq.WebUI.Controllers
             {
                 if (customer.GuidId.ToString() == HttpContext.User.FindFirst(c => c.Type == "UserGuid")?.Value)
                 {
+                    var response = repoOrder.GetAll(x => x.CustomerId == userId).Include(x=>x.CustomerAdresses).Include(x => x.SoldProducts).ToList();
+
                     MemberProfileVM memberProfileVM = new MemberProfileVM
                     {
                         Customer = customer,
                         CustomerAdressesList = repoCustomerAdresses.GetAll(x => x.CustomerID == userId).ToList(),
+                        Orders=response,
                     };
                     return View(memberProfileVM);
                 }
@@ -81,22 +90,22 @@ namespace Uniq.WebUI.Controllers
         public async Task<IActionResult> UpdateCustomer(MemberProfileVM model)
         {
 
-                var userId = int.Parse(HttpContext.User.FindFirst(ClaimTypes.PrimarySid)?.Value);
-                if (model.Customer.Id == userId)
+            var userId = int.Parse(HttpContext.User.FindFirst(ClaimTypes.PrimarySid)?.Value);
+            if (model.Customer.Id == userId)
+            {
+                if (model.Customer.GuidId.ToString() == HttpContext.User.FindFirst(c => c.Type == "UserGuid")?.Value)
                 {
-                    if (model.Customer.GuidId.ToString() == HttpContext.User.FindFirst(c => c.Type == "UserGuid")?.Value)
+                    var customer = repoCustomer.GetBy(x => x.Id == userId);
+                    customer.Name = model.Customer.Name;
+                    customer.Surname = model.Customer.Surname;
+                    customer.PhoneNo = model.Customer.PhoneNo;
+                    if (model.Customer.Password != null)
                     {
-                        var customer = repoCustomer.GetBy(x => x.Id == userId);
-                        customer.Name = model.Customer.Name;
-                        customer.Surname = model.Customer.Surname;
-                        customer.PhoneNo = model.Customer.PhoneNo;
-                        if (model.Customer.Password != null)
-                        {
-                            customer.Password = GeneralTool.getMD5(model.Customer.Password);
-                        }
-                        await repoCustomer.Update(customer);
+                        customer.Password = GeneralTool.getMD5(model.Customer.Password);
                     }
+                    await repoCustomer.Update(customer);
                 }
+            }
             TempData["Info"] = "Güncelleme Yapıldı.";
             return Redirect("/profil");
         }

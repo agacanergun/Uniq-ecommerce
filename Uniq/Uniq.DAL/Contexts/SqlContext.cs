@@ -41,7 +41,10 @@ namespace Uniq.DAL.Contexts
 
             modelBuilder.Entity<Order>().HasIndex(x => x.OrderNumber).IsUnique().HasDatabaseName("OrderNumberUnique");
 
-            modelBuilder.Entity<Order>().HasMany(x => x.SoldProducts).WithOne(x => x.Order).HasForeignKey(x=>x.OrderId);
+            modelBuilder.Entity<Order>().HasMany(x => x.SoldProducts).WithOne(x => x.Order).HasForeignKey(x => x.OrderId);
+
+            modelBuilder.Entity<Order>().HasOne(x => x.CustomerAdresses).WithMany().HasForeignKey(x => x.CustomerAdressesId).OnDelete(DeleteBehavior.NoAction);
+       
         }
     }
 }

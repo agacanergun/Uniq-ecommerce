@@ -91,25 +91,35 @@
                                 </div>
 
                                 <div class="order-wraper">
-                                    <div class="order-box">
+                                    @foreach (var item in Model.Orders)
+                                    {
+                                        <div class="order-box">
+                                            <div class="order-info">
+                                                <div class="product-details">
+                                                    <div class="product-content">
+                                                        <p class="truncate-3">
+                                                            Adres : @item.CustomerAdresses.Title - @item.CustomerAdresses.Country @item.CustomerAdresses.Province @item.CustomerAdresses.District @item.CustomerAdresses.Adress
+                                                        </p>
+                                                        <span>Kargo : <span>@item.ShippingType</span></span>
+                                                        @{
+                                                            decimal TotalAmount = 0;
+                                                        }
+                                                        @foreach (var item1 in item.SoldProducts)
+                                                        {
+                                                            <span>Ürün Adı : <span>@item1.Title</span></span>
+                                                            <span>Ürün Adeti : <span>@item1.Quantity</span></span>
+                                                            TotalAmount += item1.Quantity * item1.DiscountedPrice;
+                                                        }
 
-                                        <div class="order-info">
-                                            <div class="product-details">
-                                                <div class="img-box"><img src="../assets/images/fashion/product/front/4.jpg" alt="product"></div>
-                                                <div class="product-content">
-                                                    <h5>Women’s long sleeve Jacket</h5>
-                                                    <p class="truncate-3">
-                                                        Versatile sporty slogans short sleeve quirky laid back orange lux hoodies vests pins badges. Versatile sporty slogans short sleeve quirky laid back orange lux hoodies
-                                                        vests pins badges. Cutting edge crops stone transparent.
-                                                    </p>
-                                                    <span>Prize : <span>$120.00</span></span>
-                                                    <span>Size : <span>M</span></span>
-                                                    <span>Order Id : <span>edf125qa1d35</span></span>
+                                                        <span>Sipariş Tarihi : <span>@item.OrderDateTime.ToString("MM/dd/yyyy")</span></span>
+                                                        <span>Toplam Tutar : <span>@TotalAmount TL</span></span>
+                                                        <span>Sipariş Durumu : <span>@item.OrderStatus</span></span>
+                                                    </div>
                                                 </div>
-                                            </div>
 
+                                            </div>
                                         </div>
-                                    </div>
+                                    }
 
                                 </div>
                             </div>
@@ -293,7 +303,6 @@
                             </div>
                         </div>
                         <!-- Saved Address Tabs End -->
-                  
                         <!-- Profile Tabs Start -->
                         <div class="tab-pane active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="profile">

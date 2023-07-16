@@ -65,7 +65,7 @@ namespace Uniq.WebUI.Controllers
             }
             else
             {
-                if (vm.Order.CustomerAddressId == 0 || vm.Order.ShippingType == null)
+                if (vm.Order.CustomerAdressesId == 0 || vm.Order.ShippingType == null)
                 {
                     return Redirect("/siparis-olustur");
                 }
@@ -83,6 +83,7 @@ namespace Uniq.WebUI.Controllers
                     vm.Order.OrderNumber = Guid.NewGuid().ToString();
                     vm.Order.OrderStatus = "Sipariş Alındı";
                     vm.Order.Status = 1;
+                    vm.Order.OrderDateTime = DateTime.Now;
                     await repoOrder.Add(vm.Order);
 
                     List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);

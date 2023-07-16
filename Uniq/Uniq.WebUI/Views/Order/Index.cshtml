@@ -26,7 +26,7 @@
                                             @foreach (var item in Model.CustomerAdresses)
                                             {
                                                 <div class="input-box radio-box col-6">
-                                                    <input class="radio-input" asp-for="@Model.Order.CustomerAddressId" type="radio" id="@item.Id-adress" value="@item.Id.ToString()">
+                                                    <input class="radio-input" asp-for="@Model.Order.CustomerAdressesId" type="radio" id="@item.Id-adress" value="@item.Id.ToString()">
                                                     <label class="radio-label" for="@item.Id-adress"> @item.Title - @item.Country @item.Province @item.District @item.Adress </label>
                                                 </div>
                                             }

@@ -7,5 +7,7 @@ namespace Uniq.WebUI.ViewModels
         public CustomerAdresses CustomerAdresses { get; set; }
         public List<CustomerAdresses> CustomerAdressesList { get; set; }
         public Customer Customer { get; set; }
+        public List<Order> Orders { get; set; }
+    
     }
 }

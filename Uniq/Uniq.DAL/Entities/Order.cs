@@ -19,7 +19,7 @@ namespace Uniq.DAL.Entities
         [StringLength(50), Column(TypeName = "varchar(50)")]
         public string OrderNumber { get; set; }
 
-        public int CustomerAddressId { get; set; }
+        public int? CustomerAdressesId { get; set; }
         public CustomerAdresses CustomerAdresses { get; set; }
 
         [StringLength(20), Column(TypeName = "varchar(20)"), Display(Name = "Sipariş Durumu")]
@@ -31,5 +31,7 @@ namespace Uniq.DAL.Entities
         public ICollection<SoldProduct> SoldProducts { get; set; }
 
         public int Status { get; set; }
+
+        public DateTime OrderDateTime { get; set; }
     }
 }
