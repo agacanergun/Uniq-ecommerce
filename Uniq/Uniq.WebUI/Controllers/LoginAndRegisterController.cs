@@ -128,5 +128,13 @@ namespace Uniq.WebUI.Controllers
                 return View(model);
             }
         }
+
+        [Route("/cikis-yap")]
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync();
+            return Redirect("/");
+
+        }
     }
 }

@@ -136,16 +136,30 @@
 
                     <!-- Icon Menu Start -->
                     <ul class="icon-menu">
+                        @if (User.Identity.IsAuthenticated && User.Identity.AuthenticationType == "UniqMemberAuth")
+                        {
+                            <li class="user">
+                                <div class="dropdown user-dropdown">
+                                    <a href="javascript:void(0)"><i data-feather="user"></i></a>
+                                    <ul class="onhover-show-div">
+                                        <li><a asp-controller="LoginAndRegister" asp-action="LogOut">Güvenli Çıkış</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="user">
+                                <div class="dropdown user-dropdown">
+                                    <a href="javascript:void(0)"><i data-feather="user"></i></a>
+                                    <ul class="onhover-show-div">
+                                        <li><a asp-controller="LoginAndRegister" asp-action="Index">Giriş Yap</a></li>
+                                        <li><a asp-controller="LoginAndRegister" asp-action="Register">Kayıt Ol</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        }
 
-                        <li class="user">
-                            <div class="dropdown user-dropdown">
-                                <a href="javascript:void(0)"><i data-feather="user"></i></a>
-                                <ul class="onhover-show-div">
-                                    <li><a asp-controller="LoginAndRegister" asp-action="Index">Giriş Yap</a></li>
-                                    <li><a asp-controller="LoginAndRegister" asp-action="Register">Kayıt Ol</a></li>
-                                </ul>
-                            </div>
-                        </li>
 
                         <!-- Cart Menu Start -->
                         <li>
