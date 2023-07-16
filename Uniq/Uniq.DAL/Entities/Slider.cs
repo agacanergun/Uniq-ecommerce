@@ -18,8 +18,9 @@ namespace Uniq.DAL.Entities
         public string Title { get; set; }
         [StringLength(300), Column(TypeName = "varchar(300)"), Required(), Display(Name = "Açıklama")]
         public string Description { get; set; }
-
+        [Display(Name = "Sol Fotoğraf")]
         public string LeftPhoto { get; set; }
+        [Display(Name = "Sağ Fotoğraf")]
         public string RightPhoto { get; set; }
     }
 }

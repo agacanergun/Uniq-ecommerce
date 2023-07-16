@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Areas\admin\Data\" />
     <Folder Include="Areas\admin\Models\" />
+    <Folder Include="wwwroot\slider\" />
     <Folder Include="wwwroot\test\" />
     <Folder Include="wwwroot\productPicture\" />
   </ItemGroup>
