@@ -1,4 +1,5 @@
-﻿@using Uniq.WebUI.ViewModels;
+﻿@using Uniq.WebUI.Tools;
+@using Uniq.WebUI.ViewModels;
 @model HomeIndexVM
 
 <!-- Main Start -->
@@ -72,14 +73,14 @@
                             @if (item.Name == @ViewBag.categoryname)
                             {
 
-                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@item.Name" class="nav-link active">
+                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@GeneralTool.URLConverter(item.Name)" class="nav-link active">
                                     @item.Name
                                 </a>
 
                             }
                             else
                             {
-                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@item.Name" class="nav-link">
+                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@GeneralTool.URLConverter(item.Name)" class="nav-link">
                                     @item.Name
                                 </a>
                             }

@@ -1,0 +1,129 @@
+﻿@using Uniq.DAL.Entities;
+@using Uniq.WebUI.Tools;
+@model List<Category>
+
+<header class="header-common header5">
+    <!-- Top Header -->
+    <div class="container-lg">
+        <div class="nav-wrap">
+            <!-- Navigation Start -->
+            <nav class="navigation">
+                <div class="nav-section">
+                    <div class="header-section">
+                        <div style="justify-content: space-between;" class="navbar text-center navbar-expand-xl navbar-light navbar-sticky p-0">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu" aria-controls="primaryMenu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <a href="/" style="display:contents;" class="logo-link">
+                                <img class="logo logo-dark" src="/assets/images/logos/logo.png" alt="logo" />
+                                <img class="logo logo-light" src="/assets/images/logos/logo.png" alt="logo" />
+                            </a>
+                            <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+                                <div class="offcanvas-header navbar-shadow">
+                                    <h5 class="mt-1 mb-0">Menu</h5>
+                                    <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- Menu-->
+                                    <ul class="navbar-nav">
+                                        <!-- Home -->
+                                        <!-- Shop -->
+                                        @foreach (var item in Model)
+                                        {
+                                            <li class="nav-item dropdown">
+                                                <a asp-controller="Home" asp-action="Category" asp-route-categoryid="@item.ID" asp-route-categoryname="@GeneralTool.URLConverter(item.Name)" class="nav-link">
+                                                    @item.Name
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                            @if (User.Identity.IsAuthenticated && User.Identity.AuthenticationType == "UniqMemberAuth")
+                            {
+                                <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+                                    <div class="offcanvas-header navbar-shadow">
+                                        <h5 class="mt-1 mb-0">Menu</h5>
+                                        <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <!-- Menu-->
+                                        <ul class="navbar-nav">
+
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" asp-controller="MemberProfile" asp-action="Index">Profilim - Siparişlerim</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            }
+
+                            <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+                                <div class="offcanvas-header navbar-shadow">
+                                    <h5 class="mt-1 mb-0">Menu</h5>
+                                    <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navigation End -->
+            <!-- Menu Right Start  -->
+            <div class="menu-right">
+                @* <div class="select-menu">
+                <div class="dropdown select-dropdown" id="translate">
+                <button id="languageSelected"><span>English</span> <i data-feather="chevron-down"></i></button>
+                <ul class="onhover-show-div">
+                <li class="lang">English</li>
+                <li class="lang">Chinese</li>
+                <li class="lang">Arabic</li>
+                <li class="lang">Russian</li>
+                </ul>
+                </div>
+                </div>*@
+
+                <!-- Icon Menu Start -->
+                <ul class="icon-menu">
+                    @if (User.Identity.IsAuthenticated && User.Identity.AuthenticationType == "UniqMemberAuth")
+                    {
+                        <li class="user">
+                            <div class="dropdown user-dropdown">
+                                <a href="javascript:void(0)"><i data-feather="user"></i></a>
+                                <ul class="onhover-show-div">
+                                    <li><a asp-controller="LoginAndRegister" asp-action="LogOut">Güvenli Çıkış</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="user">
+                            <div class="dropdown user-dropdown">
+                                <a href="javascript:void(0)"><i data-feather="user"></i></a>
+                                <ul class="onhover-show-div">
+                                    <li><a asp-controller="LoginAndRegister" asp-action="Index">Giriş Yap</a></li>
+                                    <li><a asp-controller="LoginAndRegister" asp-action="Register">Kayıt Ol</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    }
+
+
+                    <!-- Cart Menu Start -->
+                    <li>
+                        <div class="dropdown shopingbag">
+                            <a asp-controller="Cart" asp-action="Index" class="cart-button"><i data-feather="shopping-bag"></i> <span class="notification-label cartCounter"></span></a>
+                            <a class="overlay-cart overlay-common"></a>
+                        </div>
+                    </li>
+                    <!-- Cart Menu End -->
+                </ul>
+                <!-- Icon Menu End -->
+            </div>
+            <!-- Menu Right End  -->
+        </div>
+    </div>
+</header>
