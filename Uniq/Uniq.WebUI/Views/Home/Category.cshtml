@@ -757,73 +757,142 @@
         </div>
     </section>
     <!-- Feature Collection Section End -->
-    <!-- Service Section start -->
-    <section class="service-section service-section4 service-section5 pt-0 mt-0">
-        <div class="container-lg">
-            <div class="banner-box mt-0">
-                <img class="bg-img" src="/assets/images/watch/banner/service-bg.jpg" alt="banner" />
+    @if (Model.SmallSlider != null)
+    {
+        <section class="service-section service-section4 service-section5 pt-0 mt-0">
+            <div class="container-lg">
+                <div class="banner-box mt-0">
+                    <img class="bg-img" src="/assets/images/watch/banner/service-bg.jpg" alt="banner" />
 
-                <div class="row g-4 g-lg-0">
-                    <div class="col-6 col-lg-3">
-                        <div class="service-box">
-                            <div class="media">
-                                <svg>
-                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#truck"></use>
-                                </svg>
-                                <div class="media-body">
-                                    <h5>Free Shipping</h5>
-                                    <span>From all orders over $200</span>
+                    <div class="row g-4 g-lg-0">
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#truck"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>@Model.SmallSlider.FirstTitle</h5>
+                                        <span>@Model.SmallSlider.FirstDescription</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-6 col-lg-3">
-                        <div class="service-box">
-                            <div class="media">
-                                <svg>
-                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#component"></use>
-                                </svg>
-                                <div class="media-body">
-                                    <h5>FREE RETURNS</h5>
-                                    <span>Return money within 30 days</span>
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#component"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>@Model.SmallSlider.SecondTitle</h5>
+                                        <span>@Model.SmallSlider.SecondDescription</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-6 col-lg-3">
-                        <div class="service-box">
-                            <div class="media">
-                                <svg>
-                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#dollar"></use>
-                                </svg>
-                                <div class="media-body">
-                                    <h5>SECURE SHOPPING</h5>
-                                    <span>You're in safe hands</span>
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#dollar"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>@Model.SmallSlider.ThirdTitle</h5>
+                                        <span>@Model.SmallSlider.ThirdDescription</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-6 col-lg-3">
-                        <div class="service-box">
-                            <div class="media">
-                                <svg>
-                                    <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#thum"></use>
-                                </svg>
-                                <div class="media-body">
-                                    <h5>OVER 10,000 STYLES</h5>
-                                    <span>We have everything you need</span>
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#thum"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>@Model.SmallSlider.FourthTitle</h5>
+                                        <span>@Model.SmallSlider.FourthDescription</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Service Section End -->
+        </section>
+    }
+    else
+    {
+        <section class="service-section service-section4 service-section5 pt-0 mt-0">
+            <div class="container-lg">
+                <div class="banner-box mt-0">
+                    <img class="bg-img" src="/assets/images/watch/banner/service-bg.jpg" alt="banner" />
+
+                    <div class="row g-4 g-lg-0">
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#truck"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>Free Shipping</h5>
+                                        <span>From all orders over $200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#component"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>FREE RETURNS</h5>
+                                        <span>Return money within 30 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#dollar"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>SECURE SHOPPING</h5>
+                                        <span>You're in safe hands</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="service-box">
+                                <div class="media">
+                                    <svg>
+                                        <use xlink:href="https://themes.pixelstrap.com/oslo/assets/icons/svg/service/_sprite.svg#thum"></use>
+                                    </svg>
+                                    <div class="media-body">
+                                        <h5>OVER 10,000 STYLES</h5>
+                                        <span>We have everything you need</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
     <!-- Feature Collection Section Start -->
     <section class="pt-0 ratio_asos">
         <div class="container-lg">

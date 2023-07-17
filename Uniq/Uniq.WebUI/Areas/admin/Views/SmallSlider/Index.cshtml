@@ -35,8 +35,14 @@
                                 <thead>
                                     <!-- start row -->
                                     <tr>
-                                        <th>Ufak Slayt Adı</th>
-                                        <th>Görüntülenme Sırası</th>
+                                        <th>İlk Başlık</th>
+                                        <th>İlk Açıklama</th>
+                                        <th>İkinci Başlık</th>
+                                        <th>İkinci Açıklama</th>
+                                        <th>Üçüncü Başlık</th>
+                                        <th>Üçüncü Açıklama</th>
+                                        <th>Dördüncü Başlık</th>
+                                        <th>Dördüncü Açıklama</th>
                                         <th>Düzenle</th>
                                     </tr>
                                     <!-- end row -->
@@ -46,8 +52,14 @@
                                     {
                                         <!-- start row -->
                                         <tr>
-                                            <td>@item.Name</td>
-                                            <td>@item.DisplayIndex</td>
+                                            <td>@item.FirstTitle</td>
+                                            <td>@item.FirstDescription</td>
+                                            <td>@item.SecondTitle</td>
+                                            <td>@item.SecondDescription</td>
+                                            <td>@item.ThirdTitle</td>
+                                            <td>@item.ThirdDescription</td>
+                                            <td>@item.FourthTitle</td>
+                                            <td>@item.FourthDescription</td>
                                             <td>
                                                 <div class="dropdown dropstart">
                                                     <a href="#" class="text-muted" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,7 +70,7 @@
                                                             <a asp-area="admin" asp-controller="SmallSlider" asp-action="Update" asp-route-id="@item.Id" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-edit"></i>Güncelle</a>
                                                         </li>
                                                         <li>
-                                                            <button onclick="confirmDeleteSmallSlider(@item.ID)" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-trash"></i>Sil</button>
+                                                            <button onclick="confirmDeleteSmallSlider(@item.Id)" class="dropdown-item d-flex align-items-center gap-3"><i class="fs-4 ti ti-trash"></i>Sil</button>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -70,8 +82,14 @@
                                 <tfoot>
                                     <!-- start row -->
                                     <tr>
-                                        <th>Ufak Slayt Adı</th>
-                                        <th>Görüntülenme Sırası</th>
+                                        <th>İlk Başlık</th>
+                                        <th>İlk Açıklama</th>
+                                        <th>İkinci Başlık</th>
+                                        <th>İkinci Açıklama</th>
+                                        <th>Üçüncü Başlık</th>
+                                        <th>Üçüncü Açıklama</th>
+                                        <th>Dördüncü Başlık</th>
+                                        <th>Dördüncü Açıklama</th>
                                         <th style="display:none;"></th>
                                     </tr>
                                     <!-- end row -->

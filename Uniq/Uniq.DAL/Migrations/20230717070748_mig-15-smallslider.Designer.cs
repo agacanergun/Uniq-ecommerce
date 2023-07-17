@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Uniq.DAL.Contexts;
 
@@ -11,9 +12,11 @@ using Uniq.DAL.Contexts;
 namespace Uniq.DAL.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    partial class SqlContextModelSnapshot : ModelSnapshot
+    [Migration("20230717070748_mig-15-smallslider")]
+    partial class mig15smallslider
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,7 +55,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Admin", (string)null);
+                    b.ToTable("Admin");
 
                     b.HasData(
                         new
@@ -83,7 +86,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Communication", b =>
@@ -109,7 +112,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Communication", (string)null);
+                    b.ToTable("Communication");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Customer", b =>
@@ -156,7 +159,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customer", (string)null);
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerAdresses", b =>
@@ -199,7 +202,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("CustomerID");
 
-                    b.ToTable("CustomerAdresses", (string)null);
+                    b.ToTable("CustomerAdresses");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerServiceInstitutional", b =>
@@ -229,7 +232,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("CustomerServiceInstitutional", (string)null);
+                    b.ToTable("CustomerServiceInstitutional");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Order", b =>
@@ -275,7 +278,7 @@ namespace Uniq.DAL.Migrations
                         .HasDatabaseName("OrderNumberUnique")
                         .HasFilter("[OrderNumber] IS NOT NULL");
 
-                    b.ToTable("Order", (string)null);
+                    b.ToTable("Order");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Product", b =>
@@ -322,7 +325,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Product", (string)null);
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.ProductCategory", b =>
@@ -337,7 +340,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("ProductCategory", (string)null);
+                    b.ToTable("ProductCategory");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.ProductPicture", b =>
@@ -372,7 +375,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("SoldProductId");
 
-                    b.ToTable("ProductPicture", (string)null);
+                    b.ToTable("ProductPicture");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Shipping", b =>
@@ -393,7 +396,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Shipping", (string)null);
+                    b.ToTable("Shipping");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Slider", b =>
@@ -427,7 +430,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slider", (string)null);
+                    b.ToTable("Slider");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SmallSlider", b =>
@@ -480,7 +483,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SmallSlider", (string)null);
+                    b.ToTable("SmallSlider");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SocialMedia", b =>
@@ -513,7 +516,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("SocialMedia", (string)null);
+                    b.ToTable("SocialMedia");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SoldProduct", b =>
@@ -552,7 +555,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("SoldProduct", (string)null);
+                    b.ToTable("SoldProduct");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerAdresses", b =>

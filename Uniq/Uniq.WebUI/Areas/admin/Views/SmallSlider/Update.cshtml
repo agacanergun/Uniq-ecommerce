@@ -8,19 +8,55 @@
                             ---------------- -->
             <div class="card">
                 <form asp-area="admin" asp-controller="SmallSlider" asp-action="Update" class="form-horizontal r-separator">
-                    <input type="hidden" asp-for="@Model.ID" />
+                    <input type="hidden" asp-for="@Model.Id" />
                     <div class="card-body">
                         <h5>Ufak Slayt Güncelle</h5>
                         <div class="form-group row align-items-center mb-0">
-                            <label asp-for="@Model.Name" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <label asp-for="@Model.FirstTitle" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
                             <div class="col-9 border-start pb-2 pt-2">
-                                <input required asp-for="@Model.Name" type="text" class="form-control" id="inputEmail3">
+                                <input required asp-for="@Model.FirstTitle" type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
                         <div class="form-group row align-items-center mb-0">
-                            <label asp-for="@Model.DisplayIndex" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <label asp-for="@Model.FirstDescription" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
                             <div class="col-9 border-start pb-2 pt-2">
-                                <input required asp-for="@Model.DisplayIndex" type="number" class="form-control" id="inputEmail3">
+                                <input required asp-for="@Model.FirstDescription" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.SecondTitle" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.SecondTitle" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.SecondDescription" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.SecondDescription" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.ThirdTitle" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.ThirdTitle" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.ThirdDescription" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.ThirdDescription" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.FourthTitle" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.FourthTitle" type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row align-items-center mb-0">
+                            <label asp-for="@Model.FourthDescription" for="inputEmail3" class="col-3 text-end control-label col-form-label"></label>
+                            <div class="col-9 border-start pb-2 pt-2">
+                                <input required asp-for="@Model.FourthDescription" type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
                     </div>

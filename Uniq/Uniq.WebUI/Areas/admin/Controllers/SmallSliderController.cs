@@ -28,7 +28,7 @@ namespace Uniq.WebUI.Areas.admin.Controllers
         public async Task<IActionResult> Add(SmallSlider SmallSlider)
         {
             var response = repoSmallSlider.GetAll().ToList();
-            if (response !=null)
+            if (response.Count != 0)
             {
                 ViewBag.Error = "Bu Alanda Yanlızca 1 Adet Veri Ekleyebilirsiniz.";
                 return View(SmallSlider);
