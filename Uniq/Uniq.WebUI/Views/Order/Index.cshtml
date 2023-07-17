@@ -23,12 +23,19 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
                                     <div class="accordion-body net-banking">
                                         <div class="row">
-                                            @foreach (var item in Model.CustomerAdresses)
+                                            @if (Model.CustomerAdresses.Count() == 0)
                                             {
-                                                <div class="input-box radio-box col-6">
-                                                    <input class="radio-input" asp-for="@Model.Order.CustomerAdressesId" type="radio" id="@item.Id-adress" value="@item.Id.ToString()">
-                                                    <label class="radio-label" for="@item.Id-adress"> @item.Title - @item.Country @item.Province @item.District @item.Adress </label>
-                                                </div>
+                                                <a asp-controller="MemberProfile" asp-action="Index" class="btn btn-success">Adres Ekle</a>
+                                            }
+                                            else
+                                            {
+                                                @foreach (var item in Model.CustomerAdresses)
+                                                {
+                                                    <div class="input-box radio-box col-6">
+                                                        <input class="radio-input" asp-for="@Model.Order.CustomerAdressesId" type="radio" id="@item.Id-adress" value="@item.Id.ToString()">
+                                                        <label class="radio-label" for="@item.Id-adress"> @item.Title - @item.Country @item.Province @item.District @item.Adress </label>
+                                                    </div>
+                                                }
                                             }
 
                                         </div>
