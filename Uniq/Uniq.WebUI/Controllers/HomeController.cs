@@ -27,9 +27,29 @@ namespace Uniq.WebUI.Controllers
         }
         public IActionResult Index()
         {
+
+            var top5Products = repoSoldProduct.GetAll()
+                   .GroupBy(p => p.ProductId)
+                   .Select(g => new
+                   {
+                       ProductId = g.Key,
+                       TotalSoldQuantity = g.Sum(p => p.Quantity)
+                   })
+                   .OrderByDescending(g => g.TotalSoldQuantity)
+                   .Take(5).ToList();
+
+
+            List<Product> bestSalesProducts = new List<Product>();
+
+            foreach (var item in top5Products)
+            {
+                var product = repoProduct.GetBy(x => x.ID == item.ProductId);
+                bestSalesProducts.Add(product);
+            }
+
             HomeIndexVM vm = new HomeIndexVM
             {
-                BestSalesProducts = repoProduct.GetAll().Include(x => x.ProductPictures).OrderBy(o => Guid.NewGuid()).Take(5).ToList(),
+                BestSalesProducts = bestSalesProducts,
                 ProductCategories = repoProductCategory.GetAll().ToList(),
                 UniqProducts = repoProduct.GetAll(x => x.SuggestedUnique == true).Include(x => x.ProductPictures).OrderBy(x => x.DisplayIndex).ToList(),
                 Categories = repoCategory.GetAll().OrderBy(x => x.DisplayIndex).ToList(),
@@ -37,7 +57,6 @@ namespace Uniq.WebUI.Controllers
                 Slider = repoSlider.GetAll().FirstOrDefault(),
                 SmallSlider = repoSmallSlider.GetAll().FirstOrDefault(),
             };
-            //çok satanlar getirilecek
 
             return View(vm);
         }
@@ -60,9 +79,30 @@ namespace Uniq.WebUI.Controllers
                 .OrderBy(x => x.DisplayIndex)
                 .ToList();
 
+
+            var top5Products = repoSoldProduct.GetAll()
+                .GroupBy(p => p.ProductId)
+                .Select(g => new
+                {
+                    ProductId = g.Key,
+                    TotalSoldQuantity = g.Sum(p => p.Quantity)
+                })
+                .OrderByDescending(g => g.TotalSoldQuantity)
+                .Take(5).ToList();
+
+
+            List<Product> bestSalesProducts = new List<Product>();
+
+            foreach (var item in top5Products)
+            {
+                var product = repoProduct.GetBy(x => x.ID == item.ProductId);
+                bestSalesProducts.Add(product);
+            }
+
+
             HomeIndexVM vm = new HomeIndexVM
             {
-                BestSalesProducts = repoProduct.GetAll().Include(x => x.ProductPictures).OrderBy(o => Guid.NewGuid()).Take(5).ToList(),
+                BestSalesProducts = bestSalesProducts,
                 ProductCategories = repoProductCategory.GetAll().ToList(),
                 UniqProducts = repoProduct.GetAll(x => x.SuggestedUnique == true).Include(x => x.ProductPictures).OrderBy(x => x.DisplayIndex).ToList(),
                 Categories = repoCategory.GetAll().OrderBy(x => x.DisplayIndex).ToList(),
