@@ -9,5 +9,7 @@ namespace Uniq.WebUI.ViewModels
         public List<Product> MainPageProducts { get; set; }
         public List<ProductCategory> ProductCategories { get; set; }
         public List<Category> Categories { get; set; }
+        public Slider Slider { get; set; }
+        public SmallSlider SmallSlider { get; set; }
     }
 }

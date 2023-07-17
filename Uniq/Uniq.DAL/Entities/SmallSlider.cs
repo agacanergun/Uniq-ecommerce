@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Uniq.DAL.Entities
 {
-    public class SmallSlider
+    public class SmallSmallSlider
     {
         public int Id { get; set; }
 

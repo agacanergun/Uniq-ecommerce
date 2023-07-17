@@ -4,26 +4,52 @@
 <!-- Main Start -->
 <main class="main">
     <!-- Home Banner Section Start -->
-    <section class="home-slider-common home-slider5 ratio_40 pt-0">
-        <div class="banner">
-            <div>
-                <img class="bg-img img-fluid" src="/assets/images/watch/banner/banner1.jpg" alt="banner" />
+    @if (Model.Slider != null)
+    {
+        <section class="home-slider-common home-slider5 ratio_40 pt-0">
+            <div class="banner">
+                <div>
+                    <img class="bg-img img-fluid" src="/assets/images/watch/banner/banner1.jpg" alt="banner" />
+                </div>
+                <!-- Banner Image Left -->
+                <img class="img-fluid banner-left-img d-none d-sm-block" src="@Model.Slider.LeftPhoto" alt="banner" />
+
+                <!-- Content Box -->
+                <div class="content-box">
+                    <p class="offer"><span></span>@Model.Slider.SmallTitle<span></span></p>
+                    <h1 class="heading">@Model.Slider.Title</h1>
+                    <p class="content d-none d-xl-block">@Model.Slider.Description</p>
+
+                </div>
+
+                <!-- Banner Image Right -->
+                <img class="img-fluid banner-right-img" src="@Model.Slider.RightPhoto" alt="banner" />
             </div>
-            <!-- Banner Image Left -->
-            <img class="img-fluid banner-left-img d-none d-sm-block" src="/assets/images/watch/banner/banner1-1.png" alt="banner" />
+        </section>
+    }
+    else
+    {
+        <section class="home-slider-common home-slider5 ratio_40 pt-0">
+            <div class="banner">
+                <div>
+                    <img class="bg-img img-fluid" src="/assets/images/watch/banner/banner1.jpg" alt="banner" />
+                </div>
+                <!-- Banner Image Left -->
+                <img class="img-fluid banner-left-img d-none d-sm-block" src="/test/2.png" alt="banner" />
 
-            <!-- Content Box -->
-            <div class="content-box">
-                <p class="offer"><span></span>sdadsadsasdasaddsaUp to 50% Off<span></span></p>
-                <h1 class="heading">Elegance is an <span>Attitude</span></h1>
-                <p class="content d-none d-xl-block">We are happy to introduce our newest watch collection, They come in different sizes and colors, and all feature a stainless steel back</p>   
+                <!-- Content Box -->
+                <div class="content-box">
+                    <p class="offer"><span></span><span></span></p>
+                    <h1 class="heading"></h1>
+                    <p class="content d-none d-xl-block"></p>
 
+                </div>
+
+                <!-- Banner Image Right -->
+                <img class="img-fluid banner-right-img" src="/test/1.png" alt="banner" />
             </div>
-
-            <!-- Banner Image Right -->
-            <img class="img-fluid banner-right-img" src="/assets/images/watch/banner/banner1-2.png" alt="banner" />
-        </div>
-    </section>
+        </section>
+    }
     <!-- Home Banner Section End -->
     <!-- Popular Store Section Start -->
     <section class="pt-0">

@@ -5037,10 +5037,6 @@
       "PackagePath": "staticwebassets\\productPicture\\800sipsi.jpg"
     },
     {
-      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1025sipsi.jpg",
-      "PackagePath": "staticwebassets\\slider\\1025sipsi.jpg"
-    },
-    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1043sipsi.jpg",
       "PackagePath": "staticwebassets\\slider\\1043sipsi.jpg"
     },
@@ -5061,10 +5057,6 @@
       "PackagePath": "staticwebassets\\slider\\1378lüle.jpg"
     },
     {
-      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1449nargıletakım.jpg",
-      "PackagePath": "staticwebassets\\slider\\1449nargıletakım.jpg"
-    },
-    {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1537nargıletakım.jpg",
       "PackagePath": "staticwebassets\\slider\\1537nargıletakım.jpg"
     },
@@ -5079,6 +5071,14 @@
     {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\310nargıletakım.jpg",
       "PackagePath": "staticwebassets\\slider\\310nargıletakım.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\6312.png",
+      "PackagePath": "staticwebassets\\slider\\6312.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\7791.png",
+      "PackagePath": "staticwebassets\\slider\\7791.png"
     },
     {
       "Id": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\903sipsi.jpg",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ORp9SPQlO2s8oTlLxSZmmJI3q3F5ePD3JQoesixYA58=",
+  "Hash": "Grm+Nf5X9kie2iWlZr7ILQ4vk2GZWkrFjBOUsQEq0To=",
   "Source": "Uniq.WebUI",
   "BasePath": "_content/Uniq.WebUI",
   "Mode": "Default",
@@ -21420,23 +21420,6 @@
       "OriginalItemSpec": "wwwroot\\productPicture\\800sipsi.jpg"
     },
     {
-      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1025sipsi.jpg",
-      "SourceId": "Uniq.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
-      "BasePath": "_content/Uniq.WebUI",
-      "RelativePath": "slider/1025sipsi.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\slider\\1025sipsi.jpg"
-    },
-    {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1043sipsi.jpg",
       "SourceId": "Uniq.WebUI",
       "SourceType": "Discovered",
@@ -21522,23 +21505,6 @@
       "OriginalItemSpec": "wwwroot\\slider\\1378lüle.jpg"
     },
     {
-      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1449nargıletakım.jpg",
-      "SourceId": "Uniq.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
-      "BasePath": "_content/Uniq.WebUI",
-      "RelativePath": "slider/1449nargıletakım.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\slider\\1449nargıletakım.jpg"
-    },
-    {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\1537nargıletakım.jpg",
       "SourceId": "Uniq.WebUI",
       "SourceType": "Discovered",
@@ -21605,6 +21571,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\slider\\310nargıletakım.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\6312.png",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "slider/6312.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slider\\6312.png"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\7791.png",
+      "SourceId": "Uniq.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\",
+      "BasePath": "_content/Uniq.WebUI",
+      "RelativePath": "slider/7791.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slider\\7791.png"
     },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.WebUI\\wwwroot\\slider\\903sipsi.jpg",
