@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Uniq.DAL.Entities
 {
+    [Table("Shipping", Schema = "dbo")]
     public class Shipping
     {
         public int ID { get; set; }

@@ -52,7 +52,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Admin", (string)null);
+                    b.ToTable("Admin", "dbo");
 
                     b.HasData(
                         new
@@ -83,7 +83,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Communication", b =>
@@ -109,7 +109,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Communication", (string)null);
+                    b.ToTable("Communication", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Customer", b =>
@@ -156,7 +156,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customer", (string)null);
+                    b.ToTable("Customer", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerAdresses", b =>
@@ -199,7 +199,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("CustomerID");
 
-                    b.ToTable("CustomerAdresses", (string)null);
+                    b.ToTable("CustomerAdresses", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerServiceInstitutional", b =>
@@ -229,7 +229,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("CustomerServiceInstitutional", (string)null);
+                    b.ToTable("CustomerServiceInstitutional", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Order", b =>
@@ -275,7 +275,7 @@ namespace Uniq.DAL.Migrations
                         .HasDatabaseName("OrderNumberUnique")
                         .HasFilter("[OrderNumber] IS NOT NULL");
 
-                    b.ToTable("Order", (string)null);
+                    b.ToTable("Order", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Product", b =>
@@ -322,7 +322,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Product", (string)null);
+                    b.ToTable("Product", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.ProductCategory", b =>
@@ -337,7 +337,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("ProductCategory", (string)null);
+                    b.ToTable("ProductCategory", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.ProductPicture", b =>
@@ -372,7 +372,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("SoldProductId");
 
-                    b.ToTable("ProductPicture", (string)null);
+                    b.ToTable("ProductPicture", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Shipping", b =>
@@ -393,7 +393,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Shipping", (string)null);
+                    b.ToTable("Shipping", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.Slider", b =>
@@ -427,7 +427,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slider", (string)null);
+                    b.ToTable("Slider", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SmallSlider", b =>
@@ -441,7 +441,7 @@ namespace Uniq.DAL.Migrations
                     b.Property<string>("FirstDescription")
                         .IsRequired()
                         .HasMaxLength(35)
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("varchar(35)");
 
                     b.Property<string>("FirstTitle")
                         .IsRequired()
@@ -451,7 +451,7 @@ namespace Uniq.DAL.Migrations
                     b.Property<string>("FourthDescription")
                         .IsRequired()
                         .HasMaxLength(35)
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("varchar(35)");
 
                     b.Property<string>("FourthTitle")
                         .IsRequired()
@@ -461,7 +461,7 @@ namespace Uniq.DAL.Migrations
                     b.Property<string>("SecondDescription")
                         .IsRequired()
                         .HasMaxLength(35)
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("varchar(35)");
 
                     b.Property<string>("SecondTitle")
                         .IsRequired()
@@ -471,7 +471,7 @@ namespace Uniq.DAL.Migrations
                     b.Property<string>("ThirdDescription")
                         .IsRequired()
                         .HasMaxLength(35)
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("varchar(35)");
 
                     b.Property<string>("ThirdTitle")
                         .IsRequired()
@@ -480,7 +480,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SmallSlider", (string)null);
+                    b.ToTable("SmallSlider", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SocialMedia", b =>
@@ -513,7 +513,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("SocialMedia", (string)null);
+                    b.ToTable("SocialMedia", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.SoldProduct", b =>
@@ -552,7 +552,7 @@ namespace Uniq.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("SoldProduct", (string)null);
+                    b.ToTable("SoldProduct", "dbo");
                 });
 
             modelBuilder.Entity("Uniq.DAL.Entities.CustomerAdresses", b =>

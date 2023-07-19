@@ -24,13 +24,13 @@ namespace Uniq.WebUI.Tools
         public static void SendMail(string mail, string subject, string message)
         {
             SmtpClient smtpClient = new SmtpClient();
-            smtpClient.Host = "agacanergun.com";
-            smtpClient.Port = 587;
-            smtpClient.EnableSsl = false;
-            smtpClient.UseDefaultCredentials = false;
-            smtpClient.Credentials = new NetworkCredential("test@agacanergun.com", "A5125297a");
+            smtpClient.Host = "imap.turkticaret.net";
+            smtpClient.Port = 993;
+            smtpClient.EnableSsl = true;
+            smtpClient.UseDefaultCredentials = true;
+            smtpClient.Credentials = new NetworkCredential("contact@uneedhookah.com", "X6s5bs@96");
             MailMessage mailMessage = new();
-            mailMessage.From = new MailAddress("test@agacanergun.com");
+            mailMessage.From = new MailAddress("contact@uneedhookah.com");
             mailMessage.To.Add(mail);
             mailMessage.Subject = subject;
             mailMessage.Body = message;

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Uniq.DAL.Entities
 {
+    [Table("SmallSlider", Schema = "dbo")]
     public class SmallSlider
     {
         public int Id { get; set; }

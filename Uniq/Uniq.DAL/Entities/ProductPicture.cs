@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Uniq.DAL.Entities
 {
+    [Table("ProductPicture", Schema = "dbo")]
     public class ProductPicture
     {
         public int Id { get; set; }

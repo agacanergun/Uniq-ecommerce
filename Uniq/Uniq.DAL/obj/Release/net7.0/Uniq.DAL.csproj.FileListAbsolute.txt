@@ -1,0 +1,14 @@
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\bin\Release\net7.0\Uniq.DAL.deps.json
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\bin\Release\net7.0\Uniq.DAL.runtimeconfig.json
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\bin\Release\net7.0\Uniq.DAL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\bin\Release\net7.0\Uniq.DAL.pdb
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.csproj.AssemblyReference.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.AssemblyInfoInputs.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.AssemblyInfo.cs
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.csproj.CoreCompileInputs.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\refint\Uniq.DAL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.pdb
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\Uniq.DAL.genruntimeconfig.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.DAL\obj\Release\net7.0\ref\Uniq.DAL.dll

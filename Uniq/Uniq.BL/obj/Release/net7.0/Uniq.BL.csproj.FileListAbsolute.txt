@@ -1,0 +1,15 @@
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Release\net7.0\Uniq.BL.deps.json
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Release\net7.0\Uniq.BL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Release\net7.0\Uniq.BL.pdb
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Release\net7.0\Uniq.DAL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\bin\Release\net7.0\Uniq.DAL.pdb
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.csproj.AssemblyReference.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.AssemblyInfoInputs.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.AssemblyInfo.cs
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.csproj.CoreCompileInputs.cache
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.csproj.CopyComplete
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\refint\Uniq.BL.dll
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\Uniq.BL.pdb
+C:\Users\fnsss\Documents\GitHub\Uniq-ecommerce\Uniq\Uniq.BL\obj\Release\net7.0\ref\Uniq.BL.dll

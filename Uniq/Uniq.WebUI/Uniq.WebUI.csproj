@@ -6,13 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\admin\Data\**" />
+    <Compile Remove="Areas\admin\Models\**" />
+    <Content Remove="Areas\admin\Data\**" />
+    <Content Remove="Areas\admin\Models\**" />
+    <EmbeddedResource Remove="Areas\admin\Data\**" />
+    <EmbeddedResource Remove="Areas\admin\Models\**" />
+    <None Remove="Areas\admin\Data\**" />
+    <None Remove="Areas\admin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Uniq.BL\Uniq.BL.csproj" />
     <ProjectReference Include="..\Uniq.DAL\Uniq.DAL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\admin\Data\" />
-    <Folder Include="Areas\admin\Models\" />
     <Folder Include="wwwroot\slider\" />
     <Folder Include="wwwroot\test\" />
     <Folder Include="wwwroot\productPicture\" />

@@ -3198,23 +3198,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MONSTER\\.nuget\\packages\\": {},
+    "C:\\Users\\fnsss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\Uniq.BL.csproj",
+      "projectUniqueName": "C:\\Users\\fnsss\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\Uniq.BL.csproj",
       "projectName": "Uniq.BL",
-      "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\Uniq.BL.csproj",
-      "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\obj\\",
+      "projectPath": "C:\\Users\\fnsss\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\Uniq.BL.csproj",
+      "packagesPath": "C:\\Users\\fnsss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fnsss\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fnsss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3230,8 +3230,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.DAL\\Uniq.DAL.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.DAL\\Uniq.DAL.csproj"
+            "C:\\Users\\fnsss\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.DAL\\Uniq.DAL.csproj": {
+              "projectPath": "C:\\Users\\fnsss\\Documents\\GitHub\\Uniq-ecommerce\\Uniq\\Uniq.DAL\\Uniq.DAL.csproj"
             }
           }
         }
@@ -3261,7 +3261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
